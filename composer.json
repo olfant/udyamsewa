@@ -1,0 +1,20 @@
+{
+    "require": {
+        "cashfree/cashfree-pg-sdk-php": "dev-master",
+        "phpmailer/phpmailer": "^6.9",
+        "cashfree/cashfree-pg": "dev-master",
+        "olfant/crm-olfant-sdk": "^1.5.0.7-stable"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/olfant/crm-olfant-sdk.git"
+        }
+    ],
+    "minimum-stability": "dev"
+}

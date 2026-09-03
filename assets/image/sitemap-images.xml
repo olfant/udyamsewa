@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+             xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+      <loc>https://udyamgov.com/</loc>
+      <image:image>
+        <image:loc>https://udyamgov.com/assets/image/register-udyam-logo.svg</image:loc>
+        <image:title>register udyam logo</image:title>
+        <image:caption>register udyam official logo</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>https://udyamgov.com/assets/image/udyam-registration.jpg</image:loc>
+        <image:title>udyam registration</image:title>
+        <image:caption>register your business under new udyam registration online</image:caption>
+      </image:image>
+    </url>
+
+    <url>
+      <loc>https://udyamgov.com/udyam-re-registration-certificate-online.php</loc>
+      <image:image>
+        <image:loc>https://udyamgov.com/assets/image/udyam-re-registration.jpg</image:loc>
+        <image:title>udyam re registration</image:title>
+        <image:caption>migrate or convert your udyog aadhar to new udyam registration online</image:caption>
+      </image:image>
+    </url>
+
+    <url>
+      <loc>https://udyamgov.com/update-udyam-registration-certificate-online.php</loc>
+      <image:image>
+        <image:loc>https://udyamgov.com/assets/image/update-udyam-registration.jpg</image:loc>
+        <image:title>update udyam registration</image:title>
+        <image:caption>update or edit udyam registration certificate online</image:caption>
+      </image:image>
+    </url>
+
+    <url>
+      <loc>https://udyamgov.com/forgot-udyam-or-uam-registration-certificate-online.php</loc>
+      <image:image>
+        <image:loc>https://udyamgov.com/assets/image/forgot-udyam-registration.jpg</image:loc>
+        <image:title>forgot udyam registration</image:title>
+        <image:caption>recover your lost or forgot udyam registration certificate or number online</image:caption>
+      </image:image>
+    </url>
+
+    <url>
+      <loc>https://udyamgov.com/print-udyam-registration-certificate-online.php</loc>
+      <image:image>
+        <image:loc>https://udyamgov.com/assets/image/print-udyam-certificate.jpg</image:loc>
+        <image:title>print udyam certificate</image:title>
+        <image:caption>sample of print or download print udyam registration Certificate</image:caption>
+      </image:image>
+    </url>
+  </urlset>

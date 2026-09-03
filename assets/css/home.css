@@ -1,0 +1,25 @@
+.pricing h5 {
+  padding: 9px 17px;
+  margin: 0;
+  background: var(--hightlight-color);
+  color: #fff;
+  font-size: 18px;
+}
+
+ul.advantages-point {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+
+.check {
+  width: 45px;
+  padding: 4px;
+}
+@media (max-width:780px) {
+.jumbotron {
+  padding: 6px 0px;
+}
+
+}

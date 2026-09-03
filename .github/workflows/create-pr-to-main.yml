@@ -1,0 +1,23 @@
+name: Create PR to Beta Branch
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Every Sunday at midnight (UTC)
+
+jobs:
+  create_pr:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        token: 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
+        commit-message: "Merge updates from beta into main"
+        branch: main
+        base: beta
+        title: "Merge updates from beta into main"
+        body: "This pull request contains updates from the main branch. Please review and merge as needed."

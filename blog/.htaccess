@@ -1,0 +1,16 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Specific page redirects
+RewriteRule ^download-print-udyam-certificate-online\.php$ https://udyamgov.com/blog/download-udyam-certificate-online [R=301,L]
+
+# Remove .php — redirect old URLs to clean ones
+RewriteCond %{THE_REQUEST} \s/blog/.+\.php[\s?]
+RewriteRule ^(.+)\.php$  /blog/$1  [R=301,L,NE,QSA]
+
+# Internally serve .php for clean URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$  $1.php  [L,QSA]

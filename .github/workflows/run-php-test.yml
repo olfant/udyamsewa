@@ -1,0 +1,82 @@
+name: Run PHP Test and Comment on PR
+
+on:
+  # Trigger the workflow on push or pull request
+  pull_request:
+      branches:
+      - master
+      - main
+      - beta
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      mysql:
+        image: mysql:latest
+        env:
+          MYSQL_ALLOW_EMPTY_PASSWORD: true
+          MYSQL_ROOT_PASSWORD: ''
+          MYSQL_DATABASE: msme_registrar
+          MYSQL_HOST: localhost
+        ports:
+          - 3306:3306
+        options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
+
+      redis:
+        image: redis
+        ports:
+          - 6379/tcp
+        options: --health-cmd="redis-cli ping" --health-interval=10s --health-timeout=5s --health-retries=3
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.2'
+
+    - name: Install Composer dependencies
+      run: composer install --no-progress --no-suggest --no-interaction
+      
+    - name: Setup Environment 
+      run: cp -b sample.config.php config.php     
+
+        
+    - name: Data Migrate
+      run: mysql --protocol=tcp -uroot --password='' msme_registrar < migration/msme_registrar.sql
+
+    - name: Data Migration
+      run: php migration/db.php
+      
+    - name: PHP E2E (config)
+      run: php config.php
+      
+    - name: PHP E2E (submit)
+      run: php submit.php
+
+    - name: E2E (PHPUnit)
+      run: ./vendor/bin/phpunit E2EBedTest.php > test_results.txt
+
+    - name: Display Test Results
+      run: cat test_results.txt
+
+    - name: Comment on Pull Request
+      if: always()  # Comment on PR even if previous steps fail
+      uses: actions/github-script@v6
+      with:
+        github-token: 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
+        script: |
+          const fs = require('fs');
+          const results = fs.readFileSync('test_results.txt', 'utf8');
+          const message = `### Test Results\n\`\`\`\n${results}\n\`\`\``;
+          const { owner, repo, number } = context.issue;
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: message
+          });

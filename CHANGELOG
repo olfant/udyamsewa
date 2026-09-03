@@ -1,0 +1,7 @@
+readme documention change
+
+added pkg
+ composer require --dev phpunit/phpunit
+composer require cashfree/cashfree-pg-sdk-php
+composer require razorpay/razorpay
+ composer require phpmailer/phpmailer

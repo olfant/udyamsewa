@@ -1,0 +1,33 @@
+name: Merge All Pull Requests to Main
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Every Sunday at midnight (UTC)
+
+jobs:
+  merge_prs_to_main:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Git credentials
+      run: |
+        git config --global user.email "souravmaity091@gmail.com"
+        git config --global user.name "Sourav Maity"
+
+    - name: Fetch branches and PRs
+      run: |
+        git fetch origin
+        git fetch origin '+refs/pull/*/head:refs/remotes/origin/pr/*'
+
+    - name: Merge all open PRs to main
+      run: |
+        git checkout main
+        for pr in $(git branch -r | grep 'origin/pr/' | sed 's/origin\///'); do
+          git merge --no-edit "$pr"
+        done
+
+    - name: Push changes to main branch
+      run: git push origin main

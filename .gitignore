@@ -1,0 +1,17 @@
+/.vscode
+/docker/config/*
+/docker/data/*
+/docker/logs/*
+.DS_Store
+.env
+/vendor
+
+/uploads/msme/*
+
+/.htaccess
+*.htaccess
+!.htaccess
+/buildtest
+/config.php
+config.php
+/assets/invoice/*

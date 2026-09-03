@@ -1,0 +1,93 @@
+name: Initialize (E2E|CI)
+
+on:
+  push:
+    branches: [ "main","master","beta" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    env:
+      DB_DATABASE: msme_registrar
+      DB_USERNAME: root
+      DB_PASSWORD: ''
+      DB_HOST: localhost
+      BROADCAST_DRIVER: log
+      CACHE_DRIVER: redis
+      QUEUE_CONNECTION: redis
+      SESSION_DRIVER: redis
+    # Docs: https://docs.github.com/en/actions/using-containerized-services
+    services:
+      mysql:
+        image: mysql:latest
+        env:
+          MYSQL_ALLOW_EMPTY_PASSWORD: true
+          MYSQL_ROOT_PASSWORD: ''
+          MYSQL_DATABASE: msme_registrar
+          MYSQL_HOST: localhost
+        ports:
+          - 3306:3306
+        options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
+
+      redis:
+        image: redis
+        ports:
+          - 6379/tcp
+        options: --health-cmd="redis-cli ping" --health-interval=10s --health-timeout=5s --health-retries=3
+    strategy:
+      fail-fast: false
+      matrix:
+        php-versions: ['8.2']
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: PHPCS CI
+      # You may pin to the exact commit or the version.
+      # uses: thelovekesh/phpcs-ci@27c9f4909354d6053d84660be52d0a15fa0fe024
+      uses: thelovekesh/phpcs-ci@v1.0.1
+        
+    - name: Setup PHP with tools
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.2'
+        extensions: xdebug-beta,mbstring, intldom, fileinfo, mysql
+        coverage: xdebug
+        tools: php-cs-fixer, phpunit
+        run: phpcs -q --report=checkstyle src | cs2pr
+
+    - name: Composer Install 
+      run:  composer update
+
+    # - name: PHPLintAction
+    #   # You may pin to the exact commit or the version.
+    #   # uses: J3-Tech/PHP-Lint-Action@06cd95923138eb0d718c5d3e84fb4cf77e808efd
+    #   uses: J3-Tech/PHP-Lint-Action@v0.0.5
+    #   with:
+    #     # A php source code filename or directory. Can be a comma-separated string
+    #     path:  .
+    #     # comma-separated string of patterns that are used to ignore directories. Use asterisks to exclude by pattern. For example *src/foo/*.php or *src/foo/*
+    #     exclude: vendor
+      
+    - name: Setup Environment 
+      run: cp -b sample.config.php config.php     
+
+        
+    - name: Data Migrate
+      run: mysql --protocol=tcp -uroot --password='' msme_registrar < migration/msme_registrar.sql
+
+    - name: Data Migration
+      run: php migration/db.php
+      
+    - name: PHP E2E (config)
+      run: php config.php
+      
+    - name: PHP E2E (submit)
+      run: php submit.php
+
+    - name: E2E (PHPUnit)
+      run: ./vendor/bin/phpunit E2EBedTest.php
+
