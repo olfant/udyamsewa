@@ -177,7 +177,8 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
         <div class="collapse navbar-collapse justify-content-center" id="oldNavContent">
             <ul class="navbar-nav text-center w-100 justify-content-center">
-                <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'index.php' || $currentPage == '') ? 'active' : ''; ?>" href="/">NEW UDYAM REGISTRATION</a></li>
+                <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'index.php' || $currentPage == '') ? 'active' : ''; ?>" href="/">HOME</a></li>
+                <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'udyam-registration-certificate-online.php') ? 'active' : ''; ?>" href="/udyam-registration-certificate-online.php">NEW UDYAM REGISTRATION</a></li>
                 <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'udyam-re-registration-certificate-online.php') ? 'active' : ''; ?>" href="/udyam-re-registration-certificate-online.php">UDYAM RE-REGISTRATION</a></li>
                 <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'update-udyam-registration-certificate-online.php') ? 'active' : ''; ?>" href="/update-udyam-registration-certificate-online.php">UPDATE UDYAM CERTIFICATE</a></li>
                 <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'forgot-udyam-or-uam-registration-certificate-online.php') ? 'active' : ''; ?>" href="/forgot-udyam-or-uam-registration-certificate-online.php">FORGOT UDYAM CERTIFICATE</a></li>
