@@ -137,7 +137,7 @@
                     <div class="col-md-6 mb-4 mb-md-0">
                         <div
                             class="p-4 h-100"
-                            style="background: #f8fafc; border-radius: 12px; border-left: 5px solid #0b1e59"
+                            style="background: #f8fafc; border-left: 5px solid #0b1e59"
                         >
                             <h3 style="color: #0b1e59; font-weight: 700; margin-bottom: 20px">
                                 Our Strategy & Approach
@@ -156,7 +156,7 @@
                     <div class="col-md-6">
                         <div
                             class="p-4 h-100"
-                            style="background: #f8fafc; border-radius: 12px; border-left: 5px solid #ff7f00"
+                            style="background: #f8fafc; border-left: 5px solid #ff7f00"
                         >
                             <h3 style="color: #0b1e59; font-weight: 700; margin-bottom: 20px">Our Commitment</h3>
                             <p style="color: #475569; line-height: 1.7; font-size: 15px">
@@ -1197,7 +1197,9 @@
                 </div>
             </div>
         </section>
-                <?php include_once('components/process-nav.php'); ?>
+                
+        <?php include_once('components/link-card.php'); ?>
+        <?php include_once('components/process-nav.php'); ?>
 
         <script>
             document.addEventListener("DOMContentLoaded", function () {
