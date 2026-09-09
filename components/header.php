@@ -181,11 +181,9 @@ $currentPage = basename($_SERVER['PHP_SELF']);
                 <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'udyam-registration-certificate-online.php') ? 'active' : ''; ?>" href="/udyam-registration-certificate-online.php">NEW UDYAM REGISTRATION</a></li>
                 <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'udyam-re-registration-certificate-online.php') ? 'active' : ''; ?>" href="/udyam-re-registration-certificate-online.php">UDYAM RE-REGISTRATION</a></li>
                 <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'update-udyam-registration-certificate-online.php') ? 'active' : ''; ?>" href="/update-udyam-registration-certificate-online.php">UPDATE UDYAM CERTIFICATE</a></li>
-                <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'forgot-udyam-or-uam-registration-certificate-online.php') ? 'active' : ''; ?>" href="/forgot-udyam-or-uam-registration-certificate-online.php">FORGOT UDYAM CERTIFICATE</a></li>
-                <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'print-udyam-registration-certificate-online.php') ? 'active' : ''; ?>" href="/print-udyam-registration-certificate-online.php">DOWNLOAD UDYAM CERTIFICATE</a></li>
-                <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'udyam-registration-annexture-certificate-online.php') ? 'active' : ''; ?>" href="/udyam-registration-annexture-certificate-online.php">UDYAM ANNEXURE CERTIFICATE</a></li>
+                <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'print-udyam-registration-certificate-online.php') ? 'active' : ''; ?>" href="/print-udyam-registration-certificate-online.php">PRINT UDYAM CERTIFICATE</a></li>
                 <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'cancel-udyam-registration-certificate-online.php') ? 'active' : ''; ?>" href="/cancel-udyam-registration-certificate-online.php">CANCEL UDYAM REGISTRATION</a></li>
-                <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'udyam-annexure-certificate-sample.php') ? 'active' : ''; ?>" href="/udyam-annexure-certificate-sample.php">UDYAM ANNEXURE CERTIFICATE SAMPLE</a></li>
+                <li class="nav-item old-nav-item"><a class="nav-link old-nav-link <?php echo ($currentPage == 'msme-sample-certificate.php') ? 'active' : ''; ?>" href="/msme-sample-certificate.php">SAMPLE CERTFICATE</a></li>
             </ul>
         </div>
     </nav>

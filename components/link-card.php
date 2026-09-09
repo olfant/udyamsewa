@@ -296,7 +296,7 @@
                         <p class="consultancy-text">Consultancy For Getting Concessions For Attending International Trade Fairs.</p>
                     </div>
                     <div class="consultancy-footer">
-                        <a href="/udyam-registration-certificate-online.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
+                        <a href="/udyam-online-registration.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
                     </div>
                 </div>
             </div>
@@ -307,7 +307,7 @@
                         <p class="consultancy-text">Consultancy For Reducing Rate Of Interest On Existing Loans Availed For Their Business.</p>
                     </div>
                     <div class="consultancy-footer">
-                        <a href="/udyam-registration-certificate-online.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
+                        <a href="/udyam-online-registration.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
                     </div>
                 </div>
             </div>
@@ -318,7 +318,7 @@
                         <p class="consultancy-text">Consultancy For Availing Benefit Of Exemption From Security Deposit In Government Tenders.</p>
                     </div>
                     <div class="consultancy-footer">
-                        <a href="/udyam-registration-certificate-online.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
+                        <a href="/udyam-online-registration.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
                     </div>
                 </div>
             </div>
@@ -329,7 +329,7 @@
                         <p class="consultancy-text">Consultancy For Getting Concessions Against Electricity Bills.</p>
                     </div>
                     <div class="consultancy-footer">
-                        <a href="/udyam-registration-certificate-online.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
+                        <a href="/udyam-online-registration.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
                     </div>
                 </div>
             </div>
@@ -340,7 +340,7 @@
                         <p class="consultancy-text">Consultancy To MSME Units To Recover Their Dues From The Clients Who Have Refused To Pay.</p>
                     </div>
                     <div class="consultancy-footer">
-                        <a href="/udyam-registration-certificate-online.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
+                        <a href="/udyam-online-registration.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
                     </div>
                 </div>
             </div>
@@ -351,7 +351,7 @@
                         <p class="consultancy-text">Consultancy To Avail Exemptions Under Direct Tax Laws.</p>
                     </div>
                     <div class="consultancy-footer">
-                        <a href="/udyam-registration-certificate-online.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
+                        <a href="/udyam-online-registration.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
                     </div>
                 </div>
             </div>
@@ -362,7 +362,7 @@
                         <p class="consultancy-text">Consultancy For Getting Reimbursement Of Iso Certification Expenditure.</p>
                     </div>
                     <div class="consultancy-footer">
-                        <a href="/udyam-registration-certificate-online.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
+                        <a href="/udyam-online-registration.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
                     </div>
                 </div>
             </div>
@@ -373,7 +373,7 @@
                         <p class="consultancy-text">Consultancy For Availing Discount On Patent Fees.</p>
                     </div>
                     <div class="consultancy-footer">
-                        <a href="/udyam-registration-certificate-online.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
+                        <a href="/udyam-online-registration.php" class="btn-apply-now"><i class="fa-solid fa-circle-info"></i> Apply Now</a>
                     </div>
                 </div>
             </div>

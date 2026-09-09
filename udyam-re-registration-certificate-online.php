@@ -143,88 +143,50 @@
                                         <input type="text" class="form-control" name="email_id" value="" required="" />
                                     </div>
 
-                                    <div class="row">
-                                        <div class="form-group txt col-lg-4 col-12">
-                                            <label>PINCODE / पिन कोड<span class="required">*</span></label>
-                                            <input type="text" maxlength="6" class="form-control" name="office_pincode" />
-                                        </div>
-                                        <div class="form-group txt col-lg-4 col-12" >
-                                            <label>State<span class="required">*</span></label>
-                                            <select id="office-state" class="form-control" name="office_state" onchange="makeSubmenuOffice(this.value)">
-                                            <option value="--Select State--" disabled selected hidden>--Select State--</option>
-                                    <option value="Andaman_And_Nicobar_Island"> ANDAMAN AND NICOBAR ISLANDS / अंदमान और निकोबार द्वीपसमूह</option>
-                                    <option value="Andhra_Pradesh"> ANDHRA PRADESH / आन्ध्र प्रदेश </option>
-                                    <option value="Arunachal_Pradesh"> ARUNACHAL PRADESH / अरुणाचल प्रदेश</option>
-                                    <option value="Assam"> ASSAM / असम</option>
-                                    <option value="Bihar"> BIHAR / बिहार</option>
-                                    <option value="Chhattisgarh"> CHHATTISGARH / छत्तीसगढ़</option>
-                                    <option value="Chandigarh"> CHANDIGARH / चंडीगढ़ </option>
-                                    <option value="Dadara">DADAR AND NAGAR HAVELI / दादरा और नगर हवेली</option>
-                                    <option value="Daman"> DAMAN AND DIU / दमन और दीव</option>
-                                    <option value="Delhi"> DELHI / दिल्ली</option>
-                                    <option value="Goa">GOA / गोवा</option>
-                                    <option value="Gujarat"> GUJARAT / गुजरात</option>
-                                    <option value="Haryana"> HARYANA / हरियाणा</option>
-                                    <option value="Himachal_Pradesh"> HIMACHAL PRADESH / हिमाचल प्रदेश</option>
-                                    <option value="Jammu_and_Kashmir"> JAMMU AND KASHMIR / जम्मू और कश्मीर</option>
-                                    <option value="Jharkhand"> JHARKHAND / झारखण्ड</option>
-                                    <option value="Karnataka"> KARNATAKA / कर्णाटक</option>
-                                    <option value="Kerala"> KERALA / केरल</option>
-                                    <option value="Ladakh"> LADAKH / लद्दाख</option>
-                                    <option value="Lakshadweep"> LAKSHADWEEP / लक्षद्वीप</option>
-                                    <option value="Madhya_Pradesh"> MADHYA PRADESH / मध्य प्रदेश</option>
-                                    <option value="Maharashtra"> MAHARASHTRA / महाराष्ट्र</option>
-                                    <option value="Manipur">MANIPUR / मणिपुर</option>
-                                    <option value="Meghalaya"> MEGHALAYA / मेघालय</option>
-                                    <option value="Mizoram"> MIZORAM / मिज़ोरम</option>
-                                    <option value="Nagaland"> NAGALAND / नागालैण्ड</option>
-                                    <option value="Odisha"> ODISHA / ओड़िशा</option>
-                                    <option value="Puducherry"> PUDUCHERRY / पुडुचेरी</option>
-                                    <option value="Punjab"> PUNJAB / पंजाब</option>
-                                    <option value="Rajasthan">30. RAJASTHAN / राजस्थान</option>
-                                    <option value="Sikkim"> SIKKIM / सिक्किम</option>
-                                    <option value="Tamil_Nadu"> TAMIL NADU / तमिलनाडु</option>
-                                    <option value="Telangana"> TELANGANA / तेलंगाना</option>
-                                    <option value="Tripura"> TRIPURA / त्रिपुरा</option>
-                                    <option value="Uttar_Pradesh"> UTTAR PRADESH / उत्तर प्रदेश</option>
-                                    <option value="Uttarakhand"> UTTARAKHAND / उत्तराखण्ड</option>
-                                    <option value="West_Bengal"> WEST BENGAL / पश्चिम बंगाल</option>
-                                            </select>
-                                        </div>
+                                    <div class="form-group txt" >
+                                        <label>State<span class="required">*</span></label>
+                                        <select id="office-state" class="form-control" name="office_state" onchange="makeSubmenuOffice(this.value)">
+                                        <option value="--Select State--" disabled selected hidden>--Select State--</option>
+                                            <option value="Andaman_And_Nicobar_Island"> ANDAMAN AND NICOBAR ISLANDS / अंदमान और निकोबार द्वीपसमूह</option>
+                                            <option value="Andhra_Pradesh"> ANDHRA PRADESH / आन्ध्र प्रदेश </option>
+                                            <option value="Arunachal_Pradesh"> ARUNACHAL PRADESH / अरुणाचल प्रदेश</option>
+                                            <option value="Assam"> ASSAM / असम</option>
+                                            <option value="Bihar"> BIHAR / बिहार</option>
+                                            <option value="Chhattisgarh"> CHHATTISGARH / छत्तीसगढ़</option>
+                                            <option value="Chandigarh"> CHANDIGARH / चंडीगढ़ </option>
+                                            <option value="Dadara">DADAR AND NAGAR HAVELI / दादरा और नगर हवेली</option>
+                                            <option value="Daman"> DAMAN AND DIU / दमन और दीव</option>
+                                            <option value="Delhi"> DELHI / दिल्ली</option>
+                                            <option value="Goa">GOA / गोवा</option>
+                                            <option value="Gujarat"> GUJARAT / गुजरात</option>
+                                            <option value="Haryana"> HARYANA / हरियाणा</option>
+                                            <option value="Himachal_Pradesh"> HIMACHAL PRADESH / हिमाचल प्रदेश</option>
+                                            <option value="Jammu_and_Kashmir"> JAMMU AND KASHMIR / जम्मू और कश्मीर</option>
+                                            <option value="Jharkhand"> JHARKHAND / झारखण्ड</option>
+                                            <option value="Karnataka"> KARNATAKA / कर्णाटक</option>
+                                            <option value="Kerala"> KERALA / केरल</option>
+                                            <option value="Ladakh"> LADAKH / लद्दाख</option>
+                                            <option value="Lakshadweep"> LAKSHADWEEP / लक्षद्वीप</option>
+                                            <option value="Madhya_Pradesh"> MADHYA PRADESH / मध्य प्रदेश</option>
+                                            <option value="Maharashtra"> MAHARASHTRA / महाराष्ट्र</option>
+                                            <option value="Manipur">MANIPUR / मणिपुर</option>
+                                            <option value="Meghalaya"> MEGHALAYA / मेघालय</option>
+                                            <option value="Mizoram"> MIZORAM / मिज़ोरम</option>
+                                            <option value="Nagaland"> NAGALAND / नागालैण्ड</option>
+                                            <option value="Odisha"> ODISHA / ओड़िशा</option>
+                                            <option value="Puducherry"> PUDUCHERRY / पुडुचेरी</option>
+                                            <option value="Punjab"> PUNJAB / पंजाब</option>
+                                            <option value="Rajasthan">30. RAJASTHAN / राजस्थान</option>
+                                            <option value="Sikkim"> SIKKIM / सिक्किम</option>
+                                            <option value="Tamil_Nadu"> TAMIL NADU / तमिलनाडु</option>
+                                            <option value="Telangana"> TELANGANA / तेलंगाना</option>
+                                            <option value="Tripura"> TRIPURA / त्रिपुरा</option>
+                                            <option value="Uttar_Pradesh"> UTTAR PRADESH / उत्तर प्रदेश</option>
+                                            <option value="Uttarakhand"> UTTARAKHAND / उत्तराखण्ड</option>
+                                            <option value="West_Bengal"> WEST BENGAL / पश्चिम बंगाल</option>
+                                        </select>
+                                    </div>
 
-                                        <div class="form-group txt col-lg-4 col-12">
-                                            <label>District <span class="required">*</span></label>
-                                            <select class="form-control" name="office_district" id="office-district">
-                                                <option value="" disabled selected hidden>Please select District</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="form-group txt">
-                                        <label>GENDER</label>
-                                        <select class="form-control" name="gender">
-                                            <option value="--Select--" disabled selected hidden>--Select--</option>
-                                            <option value="Male">Male</option>
-                                            <option value="Female">Female</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group txt">
-                                        <label>SOCIAL CATEGORY / सामाजिक श्रेणी</label>
-                                        <select class="form-control" name="social_category">
-                                            <option value="--Select--" disabled selected hidden>--Select--</option>
-                                            <option value="General">General</option>
-                                            <option value="SC">SC</option>
-                                            <option value="ST">ST</option>
-                                            <option value="OBC">OBC</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group txt">
-                                        <label>ARE YOU PHYSICALLY HANDICAPPED?</label>
-                                        <select class="form-control" name="physically_handicapped">
-                                            <option value="--Select--" disabled selected hidden>--Select--</option>
-                                            <option value="Yes">Yes</option>
-                                            <option value="No">No</option>
-                                        </select>
-                                    </div>
                                     <div class="form-group txt">
                                         <label>PREVIOUS UAM NUMBER / UAM नंबर <span class="required">*</span></label>
                                         <!-- Input Field -->
@@ -235,108 +197,15 @@
                                         Invalid UDYAM number! Format should be: UDYAM-XX-12-1234567
                                         </span>
                                     </div>
+
                                     <div class="form-group txt">
-                              <label>BUSINESS NAME / व्यवसाय नाम</label>
-                              <input type="text" class="form-control" name="business_name" value="">
-                           </div>
-                           <div class="form-group txt">
-                              <label>DATE OF COMMENCEMENT OF BUSINESS / व्यवसाय के प्रारंभ होने की तिथि</label>
-                              <input type="text" name="date_of_commencement_of_business" class="form-control" placeholder="dd/mm/yyyy" size="10" maxlength="10" onkeyup="this.value=this.value.replace(/^(\d\d)(\d)$/g,'$1/$2').replace(/^(\d\d\/\d\d)(\d+)$/g,'$1/$2').replace(/[^\d\/]/g,'')" value="">
-                           </div>
-                           <div class="form-group txt">
-                              <label>BUSINESS OFFICE ADDRESS / व्यापार कार्यालय का पता <span class="required"> *</span></label>
-                              <input type="text" class="form-control" name="office_address" value="" required="">
-                           </div>
-                           <div class="form-group txt">
-                              <label>TYPE OF ORGANISATION / संगठन का प्रकार<span class="required"> *</span>
-                              </label>
-                              <select class="form-control" name="type_of_organisation">
-                                 <option value="--Select--" disabled selected hidden>--Select--</option>
-                                 <option value="Proprietorship Firm">Proprietorship</option>
-                                 <option value="Partnership Firm">Partnership Firm</option>
-                                 <option value="Hindu Undivided Family">Hindu Undivided Family</option>
-                                 <option value="Limited Liability Partnership">Limited Liability Partnership</option>
-                                 <option value="Private Limited">Private Limited</option>
-                                 <option value="Public Limited">Public Limited</option>
-                                 <option value="Self Help Group">Self Help Group</option>
-                                 <option value="Government Department">Government Department</option>
-                                 <option value="Society">Society</option>
-                                 <option value="Trust">Trust</option>
-                                 <option value="Other">Other</option>
-                              </select>
-                           </div>
-                           <div class="form-group txt">
-                              <label>MAIN BUSINESS ACTIVITY OF ENTERPRISE / उद्यम की मुख्य व्यावसायिक गतिविधि
-                              </label>
-                              <select class="form-control" name="main_business_activity_of_enterprise">
-                                 <option value="--Select--" disabled selected hidden>--Select--</option>
-                                 <option value="Manufacturer">Manufacturer</option>
-                                 <option value="Service Provider">Service Provider</option>
-                                 <option value="Traders">Traders</option>
-                              </select>
-                           </div>
-                           <div class="form-group txt">
-                              <label>INVESTMENT IN PLANT AND MACHINERY / बिजनेस निवेश</label>
-                              <input type="text" class="form-control" name="investment_in_plant_and_machinery">
-                           </div>
-                           <div class="form-group txt">
-                              <label>ANNUAL TURNOVER / वार्षिक कारोबार</label>
-                              <input type="text" class="form-control" name="annual_turnover">
-                           </div>
-                           <div class="form-group txt" style="display:block">
-                              <label>AADHAAR NUMBER / आधार संख्या <span class=""> *</span></label>
-                              <input type="text" class="form-control" maxlength="12" minlength="12" name="aadhaar_number" value="">
-                           </div>
-                           <div class="form-group txt" style="display:block">
-                              <label>PAN CARD NUMBER / पैन कार्ड नंबर <span class=""> *</span></label>
-                              <input type="text" class="form-control" name="pan_card_number" pattern="(^([a-zA-Z]{5})([0-9]{4})([a-zA-Z]{1})$)" oninvalid="this.setCustomValidity('invalid pan number!')" oninput="this.setCustomValidity('')" value="">
-                           </div>
-                           <div class="form-group txt">
-                              <label>DO YOU HAVE GST?</label>
-                              <select name="gst_avl" class="form-control">
-                                <option value="">--Select--</option>
-                                <option value="1">YES</option>
-                                <option value="0">NO</option>
-                              </select>
-                           </div>
-                           <div class="form-group txt" style="display:block">
-                              <label>BANK NAME / बैंक का नाम</label>
-                              <input type="text" class="form-control" name="bank_name" value="">
-                           </div>
-                           <div class="form-group txt" style="display:block">
-                              <label>BANK ACCOUNT NUMBER / बैंक खाता संख्या</label>
-                              <input type="text" class="form-control" name="bank_account_number" value="">
-                           </div>
-                           <div class="form-group txt">
-                              <label>IFSC CODE / आईएफएससी कोड</label>
-                              <input type="text" class="form-control" name="ifsc_code" value="">
-                           </div>
-                           <div class="form-group txt" style="margin: 0;">
-                              <label>Number of persons employed / व्यक्ति नियोजित</label>
-                           </div>
-                           <div class="row">
-                              <div class="form-group col-lg-3 col-12">
-                                 <label>MALE / पुरुष</label>
-                                 <input type="number" class="form-control" name="persons_employed_male" id="num1" min="0" onchange="sum();" oninput="validity.valid||(value='');">
-                              </div>
-                              <div class="form-group col-lg-3 col-12">
-                                 <label>FEMALE / महिला</label>
-                                 <input type="number" class="form-control" name="persons_employed_female" id="num2" min="0" onchange="sum();" oninput="validity.valid||(value='');">
-                              </div>
-                              <div class="form-group col-lg-3 col-12">
-                                 <label>OTHER / अन्य</label>
-                                 <input type="number" class="form-control" name="persons_employed_other" id="num3" min="0" onchange="sum();" oninput="validity.valid||(value='');">
-                              </div>
-                              <div class="form-group col-lg-3 col-12">
-                                 <label>TOTAL / संपूर्ण</label>
-                                 <input type="number" class="form-control" name="persons_employed_total" id="total_sum" readonly="">
-                              </div>
-                           </div>
-                           <div class="form-group txt">
-                              <label>ADDITIONAL DETAILS ABOUT BUSINESS / व्यापार के बारे में अतिरिक्त विवरण
-                              </label>
-                              <input type="text" class="form-control" name="additional_details_about_business">
-                           </div>
+                                    <label>DO YOU WANT TO MAKE ANY CHANGES IN DETAILS OF YOUR EXISTING UDYOG/UDYAM CERTIFICATE</label>
+                                    </div>
+                                    <p>
+                                    <input type="radio" name="any_changes_in_udyog_aadhaar" value="yes" onchange="checkPan(this.value);">Yes
+                                    &nbsp;
+                                    <input type="radio" name="any_changes_in_udyog_aadhaar" value="no" onchange="checkPan(this.value);" checked="">No
+                                    </p>
 
                                     <div class="form-group txt" style="display: block;">
                                         <label>UPLOAD PREVIOUS UAM/UDYAM CERTIFICATE</label>
@@ -392,60 +261,8 @@
                               आवेदक की ईमेल आईडी दर्ज करें। प्रमाण पत्र इस ईमेल पर भेजा जाएगा।
                               </label>
                            </div>
-                           <div class="form-group" style="margin-top: 20px;">
-                              <label class="fcs-text-dark"><strong>Social Category :</strong> APPLICANT HAS THE Option Of Choosing A SOCIAL CATEGORY. &nbsp; आवेदक की सामाजिक श्रेणी का चयन करें।
-                              </label>
-                           </div>
                            <div class="form-group" style="margin-top: 20px;display:block">
                               <label class="fcs-text-dark"><strong>PREVIOUS UAM NUMBER :</strong>  APPLICANT NEED TO ENTER HIS /HER PREVIOUS UAM NUMBER. &nbsp;आवेदक अपना पिछला उद्योग आधार (यूएएम) नंबर दर्ज करें।
-                              </label>
-                           </div>
-                           <div class="form-group" style="margin-top: 20px;">
-                              <label class="fcs-text-dark"><strong>BUSINESS NAME :</strong>MENTION APPLICANT'S BUSINESS NAME, IT WILL BE PRINTED ON CERTIFICATE.   आवेदक का व्यवसाय नाम दर्ज करें, यह प्रमाण पत्र पर मुद्रित होगा।</label>
-                           </div>
-                           <div class="form-group" style="margin-top: 20px;">
-                              <label class="fcs-text-dark"><strong>Date of Commencement of Business :</strong> THE APPLICANT MUST SELECT THE DATE ON WHICH THE BUSINESS BEGINS, AS THIS WILL BE PRINTED ON THE CERTIFICATE. &nbsp; तारीख का उल्लेख करें जिस दिन व्यवसाय शुरू किया गया था।
-                              </label>
-                           </div>
-                           <div class="form-group" style="margin-top: 20px;">
-                              <label class="fcs-text-dark"><strong>Office Address :</strong>APPLICANT CAN ENTER FULL OFFICE ADDRESS WITH STATE AND PINCODE. &nbsp; आवेदक राज्य और पिनकोड के साथ कार्यालय का पूरा पता दर्ज कर सकता है।</label>
-                           </div>
-                           <div class="form-group" style="margin-top: 20px;">
-                              <label class="fcs-text-dark"><strong>Type of Organization :</strong> APPLICANTS MUST SELECT THE TYPE OF ORGANIZATION THAT WILL BE PRINTED ON THE CERTIFICATE. &nbsp; आवेदक के व्यवसाय के संविधान का चयन करें।
-                              </label>
-                           </div>
-                           <div class="form-group" style="margin-top: 20px;">
-                              <label class="fcs-text-dark"><strong>Main Business Activity of Enterprise :</strong> THE MAIN BUSINESS ACTIVITY CAN BE SELECTED BY THE APPLICANT. &nbsp; आवेदक के व्यवसाय की मुख्य व्यावसायिक गतिविधि का चयन करें।</label>
-                           </div>
-                           <div class="form-group" style="margin-top: 20px;display:block">
-                              <label class="fcs-text-dark"><strong>INVESTMENT IN PLANT AND MACHINERY :</strong>  APPLICANT NEED TO ENTER HIS /HER INVESTMENT IN PLANT AND MACHINERY. &nbsp;आवेदक अपना निवेश दर्ज करें।
-                              </label>
-                           </div>
-                           <div class="form-group" style="margin-top: 20px;display:block">
-                              <label class="fcs-text-dark"><strong>ANNUAL TURNOVER :</strong>  APPLICANT NEED TO ENTER HIS /HER ANNUAL TURNOVER. &nbsp;आवेदक अपना वार्षिक कारोबार दर्ज करें।
-                              </label>
-                           </div>
-                           <div class="form-group" style="margin-top: 20px;display:block">
-                              <label class="fcs-text-dark"><strong>Aadhaar Number :</strong>APPLICANT CAN ENTER THEIR 12 DIGIT AADHAAR NUMBER. &nbsp;आवेदक का 12 अंकों का आधार नंबर दर्ज करें।
-                              </label>
-                           </div>
-                           <div class="form-group" style="margin-top: 20px;display:block">
-                              <label class="fcs-text-dark"><strong>PAN Card Number :</strong>APPLICANT  MUST ENTER HIS /HER PAN CARD NUMBER. आवेदक का पैन कार्ड नंबर दर्ज करें।
-                              </label>
-                           </div>
-                           <div class="form-group" style="margin-top: 20px;display:block">
-                              <label class="fcs-text-dark"><strong>Bank Account Number :</strong>  APPLICANT NEED TO ENTER HIS /HER BANK ACCOUNT NUMBER. &nbsp;आवेदक का बैंक खाता नंबर दर्ज करें।
-                              </label>
-                           </div>
-                           <div class="form-group" style="margin-top: 20px;">
-                              <label class="fcs-text-dark"><strong>IFSC Code :</strong>THE APPLICANT MAY ENTER HIS OR HER BANK'S IFSC CODE. &nbsp; आवेदक के बैंक खाते का IFSC Code दर्ज कर</label>
-                           </div>
-                           <div class="form-group" style="margin-top: 20px;">
-                              <label class="fcs-text-dark"><strong>Number of Employees :</strong>APPLICANT  CAN ENTER THE NUMBER OF EMPLOYEES IN HIS/HER FIRM.  &nbsp; फर्म में कार्यरत कर्मचारियों की संख्या दर्ज करें।
-                              </label>
-                           </div>
-                           <div class="form-group" style="margin-top: 20px;">
-                              <label class="fcs-text-dark"><strong>Additional Details About Business :</strong>APPLICANTS CAN ENTER ADDITIONAL BUSINESS DETAILS. (FOR EXAMPLE – FOOD PRODUCT MANUFACTURING, COMPUTER PROGRAMMING)  &nbsp; आवेदक का व्यवसाय विवरण दर्ज करें। (उदाहरण के लिए - खाद्य उत्पादों का निर्माण, कंप्यूटर प्रोग्रामिंग, मसालों का खुदरा व्यापार)
                               </label>
                            </div>
                            <div class="form-group" style="margin-top: 20px;">
