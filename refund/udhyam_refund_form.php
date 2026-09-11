@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Udyam India Refund Request Policy | Udyam Registration Portal</title>
     <meta name="description" content="Udyam India offers a refund policy for failures or disputes in Udyam registration services to ensure customer satisfaction. You can contact us for support.">
-    <link rel="canonical" href="https://udyamindia.in/refund/udhyam_refund_form.php" />
+    <link rel="canonical" href="https://udyamsewa.com/refund/udhyam_refund_form.php" />
     <link rel="icon" href="../assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>

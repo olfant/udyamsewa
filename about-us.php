@@ -214,7 +214,7 @@
         <strong>Note</strong> : <a href="<?php echo $baseUrl; ?>">udyamsewa.com</a> is owned and operated by a consultancy firm and We have no relation or we do not represent any government official or government department such as MSME Department, Providing B2B Consultancy Services.<br><br>
         
         <p>For any further <b>Enquiry</b>, <a href="<?php echo $baseUrl; ?>enquiry.php" alt="Enquiry Form"> click here </a></p>
-        <p>For Our Udyam Alternate Website, Please go to <a href="https://udyamindia.in/" alt="registration udyam" rel="sponsored"> https://udyamindia.in/</a></p>
+        <p>For Our Udyam Alternate Website, Please go to <a href="https://udyamsewa.com/" alt="registration udyam" rel="sponsored"> https://udyamsewa.com/</a></p>
     </span>
   </p>
 
