@@ -11,8 +11,8 @@ include_once('./config.php');
    <title>Track order | Udyam Sewa - MSME Portal</title>
    <meta name="description" content="Check your Udyam/MSME Registration status online. Enter your payment or order details below to check real-time updates.">
    <meta name="keywords" content="Track Order, Udyam Registration Status, Order Status Udyam Registration, Track Udyam Application, Udyam Payment ID, Check Udyam Registration Progress, MSME Registration Order Tracking, Udyam Certificate Tracking, Order Status MSME Registration, Payment ID Tracking">
-   <link rel="canonical" href="https://udyamgov.com/track-order.php" />
-   <link rel="icon" href="https://udyamgov.com/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
+   <link rel="canonical" href="<?php echo $baseUrl; ?>track-order.php" />
+   <link rel="icon" href="<?php echo $baseUrl; ?>assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -22,8 +22,8 @@ include_once('./config.php');
    <meta name="theme-color" content="#385067">
    <meta property="og:title" content="Track order | Udyam Sewa - MSME Portal">
    <meta property="og:description" content="Check your Udyam/MSME Registration status online. Enter your payment or order details below to check real-time updates.">
-   <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-udyam-registration.png"/>
-   <meta property="og:url" content="https://udyamgov.com/track-order.php">
+   <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-udyam-registration.png"/>
+   <meta property="og:url" content="<?php echo $baseUrl; ?>track-order.php">
    <meta property="og:type" content="website">
 
    <script type="application/ld+json">
@@ -32,13 +32,13 @@ include_once('./config.php');
          "@type": "WebPage",
          "name": "Track order | Udyam Sewa - MSME Portal",
          "description": "Check your Udyam/MSME Registration status online. Enter your payment or order details below to check real-time updates.",
-         "url": "https://udyamgov.com/track-order.php", 
+         "url": "<?php echo $baseUrl; ?>track-order.php", 
          "potentialAction": {
             "@type": "Action",
-            "name": "MSME/Udyam/Udyog Aadhaar - udyamgov.com Private Consultancy",
+            "name": "MSME/Udyam/Udyog Aadhaar - udyamsewa.com Private Consultancy",
             "target": {
                "@type": "EntryPoint",
-               "urlTemplate": "https://udyamgov.com/track-order.php"
+               "urlTemplate": "<?php echo $baseUrl; ?>track-order.php"
             }
          },
          
@@ -49,12 +49,12 @@ include_once('./config.php');
          ],
          "mainEntity": {
             "@type": "Service",
-            "name": "MSME/Udyam Service - udyamgov.com Private Consultancy",
+            "name": "MSME/Udyam Service - udyamsewa.com Private Consultancy",
             "serviceType": "Business Private Consultancy",
             "provider": {
                "@type": "Organization",
                "name": "UdyamGov",
-               "url": "https://udyamgov.com/track-order.php"
+               "url": "<?php echo $baseUrl; ?>track-order.php"
             },
             "areaServed": {
                "@type": "Country",
@@ -68,7 +68,7 @@ include_once('./config.php');
                "name": "India"
                }
             },
-            "additionalType": "https://udyamgov.com/track-order.php"
+            "additionalType": "<?php echo $baseUrl; ?>track-order.php"
          }
          }
    </script>
@@ -80,13 +80,13 @@ include_once('./config.php');
          "@type": "ListItem",
          "position": 1,
          "name": "Udyam Registration",
-         "item": "https://udyamgov.com"
+         "item": "<?php echo rtrim($baseUrl, '/'); ?>"
          },
          {
          "@type": "ListItem",
          "position": 2,
          "name": "Track Order",
-         "item": "https://udyamgov.com/track-order.php"
+         "item": "<?php echo $baseUrl; ?>track-order.php"
          }]
       }
     </script>

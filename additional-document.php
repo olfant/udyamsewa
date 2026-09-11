@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\Exception;
 
   $id = $_REQUEST['id'];
   $table = $_REQUEST['table'];
-  $web = "UDYAMGOV.COM";
+  $web = "UDYAMSEWA.COM";
   $crmConn = new Connection();
   // to crm db
   $connect =  $crmConn->connection;
@@ -47,22 +47,22 @@ use PHPMailer\PHPMailer\Exception;
       <meta name="theme-color" content="#385067">
       <meta property="og:title" content="additional Document | MSME - REGISTRATION" />
       <meta property="og:description" content="Submit your additional documents for verification. Please upload the required files to complete your registration or application." />
-      <meta property="og:url" content="https://udyamgov.com/additional-document.php" />
+      <meta property="og:url" content="<?php echo $baseUrl; ?>additional-document.php" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
+      <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
       <script type="application/ld+json">
       {
          "@context": "https://schema.org",
          "@type": "WebPage",
          "name": "additional Document | MSME - REGISTRATION",
          "description": "Submit your additional documents for verification. Please upload the required files to complete your registration or application.",
-         url": "https://udyamgov.com/additional-document.php", 
+         url": "<?php echo $baseUrl; ?>additional-document.php", 
          "potentialAction": {
             "@type": "Action",
             "name": "MSME/Udyam/Udyog Aadhaar - Additional Document",
             "target": {
                "@type": "EntryPoint",
-               "urlTemplate": "https://udyamgov.com/additional-document.php"
+               "urlTemplate": "<?php echo $baseUrl; ?>additional-document.php"
             }
          },
          
@@ -79,7 +79,7 @@ use PHPMailer\PHPMailer\Exception;
             "provider": {
                "@type": "Organization",
                "name": "UdyamGov",
-               "url": "https://udyamgov.com/additional-document.php"
+               "url": "<?php echo $baseUrl; ?>additional-document.php"
             },
             "areaServed": {
                "@type": "Country",
@@ -93,7 +93,7 @@ use PHPMailer\PHPMailer\Exception;
                "name": "India"
                }
             },
-            "additionalType": "https://udyamgov.com/additional-document.php"
+            "additionalType": "<?php echo $baseUrl; ?>additional-document.php"
          }
          }
       </script>
@@ -290,22 +290,22 @@ use PHPMailer\PHPMailer\Exception;
       <meta name="theme-color" content="#051547">
       <meta property="og:title" content="additional Document | MSME - REGISTRATION" />
       <meta property="og:description" content="Submit your additional documents for verification. Please upload the required files to complete your registration or application." />
-      <meta property="og:url" content="https://udyamgov.com/additional-document.php" />
+      <meta property="og:url" content="<?php echo $baseUrl; ?>additional-document.php" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-udyam-registration.png" />
+      <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-udyam-registration.png" />
       <script type="application/ld+json">
       {
          "@context": "https://schema.org",
          "@type": "WebPage",
          "name": "additional Document | MSME - REGISTRATION",
          "description": "Submit your additional documents for verification. Please upload the required files to complete your registration or application.",
-         url": "https://udyamgov.com/additional-document.php", 
+         url": "<?php echo $baseUrl; ?>additional-document.php", 
          "potentialAction": {
             "@type": "Action",
             "name": "MSME/Udyam/Udyog Aadhaar - Additional Document",
             "target": {
                "@type": "EntryPoint",
-               "urlTemplate": "https://udyamgov.com/additional-document.php"
+               "urlTemplate": "<?php echo $baseUrl; ?>additional-document.php"
             }
          },
          
@@ -322,7 +322,7 @@ use PHPMailer\PHPMailer\Exception;
             "provider": {
                "@type": "Organization",
                "name": "UdyamGov",
-               "url": "https://udyamgov.com/additional-document.php"
+               "url": "<?php echo $baseUrl; ?>additional-document.php"
             },
             "areaServed": {
                "@type": "Country",
@@ -336,7 +336,7 @@ use PHPMailer\PHPMailer\Exception;
                "name": "India"
                }
             },
-            "additionalType": "https://udyamgov.com/additional-document.php"
+            "additionalType": "<?php echo $baseUrl; ?>additional-document.php"
          }
          }
       </script>

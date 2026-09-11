@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>How Retail Startups Can Benefit from Udyam Registration</title>
 <meta name="description" content="Discover how Udyam Registration helps retail startups access government schemes, financial support, tax benefits, and business growth opportunities in India. ">
-<link rel="canonical" href="https://udyamgov.com/blog/udyam-registration-benefit-retail-startup" />
+<link rel="canonical" href="<?php echo $baseUrl; ?>blog/udyam-registration-benefit-retail-startup" />
 <meta name="keywords" content="Udyam Registration, MSME benefits, financial benefits, legal advantages, Udyam certificate">
-<link rel="icon" href="https://udyamgov.com/assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
+<link rel="icon" href="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
 <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
@@ -25,7 +26,7 @@
 <!-- og tags -->
 <meta property="og:title" content="How Retail Startups Can Benefit from Udyam Registration">
 <meta property="og:site_name" content="Udyam-Gov">
-<meta property="og:url" content="https://udyamgov.com/blog/udyam-registration-benefit-retail-startup">
+<meta property="og:url" content="<?php echo $baseUrl; ?>blog/udyam-registration-benefit-retail-startup">
 <meta property="og:description" content="Discover how Udyam Registration helps retail startups access government schemes, financial support, tax benefits, and business growth opportunities in India.">
 <meta property="og:type" content="business">
 <meta property="og:image" content="image url">
@@ -49,19 +50,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://udyamgov.com/"
+      "item": "<?php echo $baseUrl; ?>"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://udyamgov.com/blog/"
+      "item": "<?php echo $baseUrl; ?>blog/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "How Retail Startups Can Benefit from Udyam Registration",
-      "item": "https://udyamgov.com/blog/udyam-registration-benefit-retail-startup"
+      "item": "<?php echo $baseUrl; ?>blog/udyam-registration-benefit-retail-startup"
     }
   ]
 }
@@ -74,7 +75,7 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "How Retail Startups Can Benefit from Udyam Registration",
-  "url": "https://udyamgov.com/blog/udyam-registration-benefit-retail-startup",
+  "url": "<?php echo $baseUrl; ?>blog/udyam-registration-benefit-retail-startup",
   "description": "Discover how Udyam Registration helps retail startups access government schemes, financial support, tax benefits, and business growth opportunities in India.",
   "image": "image url"
 }
@@ -98,7 +99,7 @@
     "name": "Udyam Sewa",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://udyamgov.com/assets/image/register-udyam-logo.png"
+      "url": "<?php echo $baseUrl; ?>assets/image/register-udyam-logo.png"
     }
   },
   "datePublished": "2026-05-19",
@@ -151,7 +152,7 @@
     <!-- Intro card -->
     <div class="blog-card" id="intro">
       <p>Establishing a business in India for a retailer is a thrilling tale, but a few negotiations are required in terms of rigid 
-        funds, market competition, taxation and business compliance. The Government of India has introduced <a href="https://udyamgov.com/"><strong>Udyam registration</strong></a>. 
+        funds, market competition, taxation and business compliance. The Government of India has introduced <a href="<?php echo $baseUrl; ?>"><strong>Udyam registration</strong></a>. 
         for the MSMEs in India. It is a simple online registration procedure. For retail start-ups, the registration has the potential to 
         usher in several financial and operational benefits, which are likely to help them scale up rapidly and run better in their 
         day-to-day functioning.
@@ -165,7 +166,7 @@
       <p>udyam registration is an online registration system launched by the Ministry of MSME for small and medium businesses in India. 
         It replaces the earlier process of MSME registration and simplifies the registration procedure for entrepreneurs. Retail startups 
         that meet the MSME eligibility criteria can apply for this registration using their Aadhaar and business details.
-        Once registered, businesses receive a unique <a href="https://udyamgov.com/">Udyam Registration</a> Number and certificate, 
+        Once registered, businesses receive a unique <a href="<?php echo $baseUrl; ?>">Udyam Registration</a> Number and certificate, 
         which helps them avail various government benefits.
       </p>
     </div>
@@ -199,7 +200,7 @@
       </p>
 
       <h3 id="tenders">Easier Participation in Government Tenders</h3>
-      <p>The Indian government regularly releases tenders for products and services. Retail startups with <a href="https://udyamgov.com/">Udyam registration</a> get priority access to certain government tenders and procurement opportunities.</p>
+      <p>The Indian government regularly releases tenders for products and services. Retail startups with <a href="<?php echo $baseUrl; ?>">Udyam registration</a> get priority access to certain government tenders and procurement opportunities.</p>
       <h4>Many tenders also offer exemptions from:</h4>
         <ul>
         <li>Earnest Money Deposit (EMD)</li>
@@ -235,7 +236,7 @@
         <li>Submit the fee online.</li>
         <li>After submission, our team will help you to further process.</li>
       </ul>
-      <p>Upon successful verification, you will receive your <a href="https://udyamgov.com/" target="_blank">Udyam Registration certificate</a> on your Mail ID.</p>
+      <p>Upon successful verification, you will receive your <a href="<?php echo $baseUrl; ?>" target="_blank">Udyam Registration certificate</a> on your Mail ID.</p>
     </div>
 
     <!-- Conclusion -->

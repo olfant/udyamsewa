@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +9,7 @@
    <title>Contact Us | Udyam Sewa - MSME online registration</title>
    <meta name="description" content="Get in touch for reliable Udyam/MSME Registration assistance. We're here to help with guidance and support every step of the way.">
    <meta name="keywords" content="Contact Us, UdyamGov Contact, Udyam Support, MSME Assistance, Get Help with Udyam Registration, Customer Support UdyamGov, Udyam Certificate Queries, MSME Contact Information, Udyam Complaint Help, Support Services">
-   <link rel="canonical" href="https://udyamgov.com/contact-us.php" />
+   <link rel="canonical" href="<?php echo $baseUrl; ?>contact-us.php" />
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
    <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
    <script src="/assets/js/jquery.min.js"></script>
@@ -22,8 +23,8 @@
    <meta name="theme-color" content="#385067">
    <meta property="og:title" content="Contact Us | Udyam Sewa - MSME online registration">
    <meta property="og:description" content="Get in touch for reliable Udyam/MSME Registration assistance. We're here to help with guidance and support every step of the way.">
-   <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
-   <meta property="og:url" content="https://udyamgov.com/contact-us.php">
+   <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
+   <meta property="og:url" content="<?php echo $baseUrl; ?>contact-us.php">
    <meta property="og:type" content="website">
    <style media="screen">
       h1, h2, h3, h4, h5, h6{
@@ -37,13 +38,13 @@
       "@type": "WebPage",
       "name": "Contact Us | Udyam Sewa - MSME online registration",
       "description": "Get in touch for reliable Udyam/MSME Registration assistance. We're here to help with guidance and support every step of the way.",
-      "url": "https://udyamgov.com/contact-us.php", 
+      "url": "<?php echo $baseUrl; ?>contact-us.php", 
       "potentialAction": {
          "@type": "Action",
-         "name": "MSME/Udyam/Udyog Aadhaar - udyamgov.com Private Consultancy",
+         "name": "MSME/Udyam/Udyog Aadhaar - udyamsewa.com Private Consultancy",
          "target": {
             "@type": "EntryPoint",
-            "urlTemplate": "https://udyamgov.com/contact-us.php"
+            "urlTemplate": "<?php echo $baseUrl; ?>contact-us.php"
          }
       },
       
@@ -54,12 +55,12 @@
       ],
       "mainEntity": {
          "@type": "Service",
-         "name": "MSME/Udyam Service - udyamgov.com Private Consultancy",
+         "name": "MSME/Udyam Service - udyamsewa.com Private Consultancy",
          "serviceType": "Business Private Consultancy",
          "provider": {
             "@type": "Organization",
             "name": "UdyamGov",
-            "url": "https://udyamgov.com/contact-us.php"
+            "url": "<?php echo $baseUrl; ?>contact-us.php"
          },
          "areaServed": {
             "@type": "Country",
@@ -73,7 +74,7 @@
             "name": "India"
             }
          },
-         "additionalType": "https://udyamgov.com/contact-us.php"
+         "additionalType": "<?php echo $baseUrl; ?>contact-us.php"
       }
       }
    </script>
@@ -85,7 +86,7 @@
          "@type": "ListItem",
          "position": 1,
          "name": "Contact Us",
-         "item": "https://udyamgov.com/contact-us.php"
+         "item": "<?php echo $baseUrl; ?>contact-us.php"
          }]
       }
    </script>
@@ -179,7 +180,7 @@
                               <div class="form-group m-0">
                                     <p class="f12 form-help h5">
                                     <br>
-                                       <strong>Note</strong> : <a href="https://udyamgov.com/">udyamgov.com</a> is owned and operated by a consultancy firm and We have no relation or we do not represent any government official or government department such as MSME Department, etc.<br><br>
+                                       <strong>Note</strong> : <a href="<?php echo $baseUrl; ?>">udyamsewa.com</a> is owned and operated by a consultancy firm and We have no relation or we do not represent any government official or government department such as MSME Department, etc.<br><br>
                                        <br>
                                        <b>Mobile Number :</b> <a href="tel:+919031675081">(+91)9031675081</a><br>
                                        <b>Email id :</b> <a href="mailto:#">care@udyamsewa.com</a>  <br>

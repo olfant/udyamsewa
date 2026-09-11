@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +8,7 @@
         <title>Udyam annexure | Download certificate - PDF</title>
         <meta name="description" content="Get your Udyam Annexure Certificate online instantly, with full annexure details included. Quick, secure access for MSMEs — print anytime." />
         <meta name="keywords" content="Download Udyam Annexure Certificate, Udyam Certificate PDF Download, Annexure Certificate Udyam, Download Udyam Certificate Online, Udyam Annexure PDF, Get Udyam Certificate PDF, Udyam Annexure Certificate Online, MSME Udyam Certificate Download, Download Udyam Annexure Document, Udyam Certificate PDF Format">
-        <link rel="canonical" href="https://udyamgov.com/udyam-registration-annexture-certificate-online.php" />
+        <link rel="canonical" href="<?php echo $baseUrl; ?>udyam-registration-annexture-certificate-online.php" />
         <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16" />
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/css/main.css" />
@@ -18,8 +19,8 @@
         <meta name="theme-color" content="#385067">
         <meta property="og:title" content="Udyam annexure | Download certificate - PDF">
         <meta property="og:description" content="Get your Udyam Annexure Certificate online instantly, with full annexure details included. Quick, secure access for MSMEs — print anytime.">
-        <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-udyam-registration.png" />
-        <meta property="og:url" content="https://udyamgov.com/udyam-registration-annexture-certificate-online.php">
+        <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-udyam-registration.png" />
+        <meta property="og:url" content="<?php echo $baseUrl; ?>udyam-registration-annexture-certificate-online.php">
         <meta property="og:type" content="website">
 
         <script type="application/ld+json">
@@ -28,11 +29,11 @@
             "@type": "WebPage",
             "name": "Udyam annexure | Download certificate - PDF",
             "description": "Get your Udyam Annexure Certificate online instantly, with full annexure details included. Quick, secure access for MSMEs — print anytime.",
-            "url": "https://udyamgov.com/udyam-registration-annexture-certificate-online.php",
+            "url": "<?php echo $baseUrl; ?>udyam-registration-annexture-certificate-online.php",
             "potentialAction": {
             "@type": "Action",
             "name": "Download Udyam Annexure Certificate",
-            "target": "https://udyamgov.com/udyam-registration-annexture-certificate-online.php"
+            "target": "<?php echo $baseUrl; ?>udyam-registration-annexture-certificate-online.php"
             },
             "about": {
             "@type": "Service",
@@ -40,7 +41,7 @@
             "provider": {
                 "@type": "Organization",
                 "name": "UdyamGov",
-                "url": "https://udyamgov.com/"
+                "url": "<?php echo $baseUrl; ?>"
             },
             "audience": {
                 "@type": "Audience",
@@ -52,7 +53,7 @@
             },
             "offers": {
                 "@type": "Offer",
-                "url": "https://udyamgov.com/udyam-registration-annexture-certificate-online.php",
+                "url": "<?php echo $baseUrl; ?>udyam-registration-annexture-certificate-online.php",
                 "priceCurrency": "INR",
                 "eligibleRegion": {
                 "@type": "Country",
@@ -71,13 +72,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Udyam Registration Services",
-                "item": "https://udyamgov.com/"
+                "item": "<?php echo $baseUrl; ?>"
                 },
                 {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Udyam Annexure Certificate",
-                "item": "https://udyamgov.com/udyam-registration-annexture-certificate-online.php"
+                "item": "<?php echo $baseUrl; ?>udyam-registration-annexture-certificate-online.php"
                 }]
             }
         </script>

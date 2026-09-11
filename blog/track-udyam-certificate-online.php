@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Udyam Certificate Track for Government Benefits</title>
 <meta name="description" content="Easily track your Udyam Certificate online to confirm registration updates and secure uninterrupted access to valuable government schemes and MSME support.">
-<link rel="canonical" href="https://udyamgov.com/blog/track-udyam-certificate-online" />
+<link rel="canonical" href="<?php echo $baseUrl; ?>blog/track-udyam-certificate-online" />
 <meta name="keywords" content="Udyam Registration, MSME benefits, Udyam certificate track, Udyam certificate status, government schemes MSME">
-<link rel="icon" href="https://udyamgov.com/assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
+<link rel="icon" href="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
 <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
@@ -31,17 +32,17 @@
     "@type": "ListItem", 
     "position": 1, 
     "name": "Home",
-    "item": "https://udyamgov.com/"  
+    "item": "<?php echo $baseUrl; ?>"  
   },{
     "@type": "ListItem", 
     "position": 2, 
     "name": "Blog",
-    "item": "https://udyamgov.com/blog/"  
+    "item": "<?php echo $baseUrl; ?>blog/"  
   },{
     "@type": "ListItem", 
     "position": 3, 
     "name": "Udyam Certificate Track for Government Benefits",
-    "item": "https://udyamgov.com/blog/track-udyam-certificate-online"  
+    "item": "<?php echo $baseUrl; ?>blog/track-udyam-certificate-online"  
   }]
 }
 </script>
@@ -53,7 +54,7 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://udyamgov.com/blog/track-udyam-certificate-online"
+    "@id": "<?php echo $baseUrl; ?>blog/track-udyam-certificate-online"
   },
   "headline": "Udyam Certificate Track for Government Benefits",
   "description": "Track and update your Udyam Certificate to stay verified, avoid delays, and ensure not miss any government benefits, subsidies, and MSME schemes.",
@@ -67,7 +68,7 @@
     "name": "Udyam Sewa",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://udyamgov.com/assets/image/register-udyam-logo.png"
+      "url": "<?php echo $baseUrl; ?>assets/image/register-udyam-logo.png"
     }
   },
   "datePublished": "2026-05-21",
@@ -155,7 +156,7 @@ In a few hours. But it may take 1- 2 working days if there is a minor delay in s
     <div class="blog-card">
       <p>
         More than seven crore MSMEs are registered on the Udyam portal, according to the Ministry of MSME. This clearly shows why
-        <a href="https://udyamgov.com/"><b>Udyam Registration</b></a> has become necessary for businesses to avail financial
+        <a href="<?php echo $baseUrl; ?>"><b>Udyam Registration</b></a> has become necessary for businesses to avail financial
         support. Only registering is not enough; many business owners fail to regularly track or update their certificates.
         The bigger issue is that millions of businesses remain unaware that an unverified Udyam certificate can lead to loss of big
         government benefits. Without proper tracking, errors in details, inactive status, or outdated information can reject loan
@@ -218,7 +219,7 @@ In a few hours. But it may take 1- 2 working days if there is a minor delay in s
 
       <h3>Confirm Registration Status</h3>
       <p>
-        Tracking is important after registering your <a href="https://udyamgov.com/"><b>Udyam certificate</b></a> to verify
+        Tracking is important after registering your <a href="<?php echo $baseUrl; ?>"><b>Udyam certificate</b></a> to verify
         whether your Udyam registration is successfully approved or still in process. This allows you to know the status of the
         application process and keep you up to date with the process.
       </p>
@@ -254,7 +255,7 @@ In a few hours. But it may take 1- 2 working days if there is a minor delay in s
       <h3>Registered Udyam</h3>
       <ul>
         <li>You have completed the registration process.</li>
-        <li>Udyam Certificate is generated with a 12-digit <a href="https://udyamgov.com/"><b>Udyam Registration Number</b></a> (URN).</li>
+        <li>Udyam Certificate is generated with a 12-digit <a href="<?php echo $baseUrl; ?>"><b>Udyam Registration Number</b></a> (URN).</li>
         <li>Details may or may not be fully validated, leading to raised issues while applying for loans, getting subsidies, and availing government schemes.</li>
         <li>Business is officially recognised under the MSME.</li>
       </ul>
@@ -333,7 +334,7 @@ In a few hours. But it may take 1- 2 working days if there is a minor delay in s
         <li class="step-item">
           <div class="step-num">1</div>
           <div class="step-body">
-            <b>Visit the <a href="https://udyamgov.com/">Udyam Registration Portal</a></b>
+            <b>Visit the <a href="<?php echo $baseUrl; ?>">Udyam Registration Portal</a></b>
           </div>
         </li>
 
@@ -370,7 +371,7 @@ In a few hours. But it may take 1- 2 working days if there is a minor delay in s
         <li class="step-item">
           <div class="step-num">6</div>
           <div class="step-body">
-            <b>After successful verification, you will receive your <a href="https://udyamgov.com/"><strong>Udyam Registration Certificate</strong></a> on your registered email ID.</b>
+            <b>After successful verification, you will receive your <a href="<?php echo $baseUrl; ?>"><strong>Udyam Registration Certificate</strong></a> on your registered email ID.</b>
           </div>
         </li>
       </ol>

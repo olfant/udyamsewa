@@ -15,7 +15,7 @@ function generate($length = 7) {
     }
     return 'SAVE_NOTIFICATION_' . strtoupper($token);
 }
-$web = "UDYAMGOV.COM";
+$web = "UDYAMSEWA.COM";
 $response = file_get_contents('php://input');
 file_put_contents('./cashfree-log/'.generate(13), $response);
 $data = explode('&', urldecode($response));

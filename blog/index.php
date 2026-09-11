@@ -22,7 +22,7 @@ if(isset($_GET['page']) && $_GET['page'] == 1){header('Location: /blog/');}
       <title>Udyam Related Blog | Guides & Updates</title>
       <meta name="description" content="Explore guides, updates, and insights on Udyam/MSME Registration — everything you need to know, explained clearly.">
       <meta name="keywords" content="Udyam blogs, MSME registration blogs, Udyam registration information, learn about Udyam, Udyam education, Udyam guidelines, Udyam updates, MSME tips, Udyam process blogs, small business resources, Udyam registration tips, Udyam compliance, Udyam portal blogs, business registration knowledge, Udyam insights">
-      <link rel="canonical" href="https://udyamgov.com/blog/" />
+      <link rel="canonical" href="<?php echo $baseUrl; ?>blog/" />
         <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
       <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
       <script src="/assets/js/jquery.min.js"></script>
@@ -34,9 +34,9 @@ if(isset($_GET['page']) && $_GET['page'] == 1){header('Location: /blog/');}
       <meta name="theme-color" content="#051547">
       <meta property="og:title" content="Udyam Related Blog | Guides & Updates" />
       <meta property="og:description" content="Explore guides, updates, and insights on Udyam/MSME Registration — everything you need to know, explained clearly." />
-      <meta property="og:url" content="https://udyamgov.com/blog/" />
+      <meta property="og:url" content="<?php echo $baseUrl; ?>blog/" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
+      <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
       <style>
          .title h1 {
             text-align: center !important;
@@ -119,13 +119,13 @@ if(isset($_GET['page']) && $_GET['page'] == 1){header('Location: /blog/');}
          "@type": "WebPage",
          "name": "Udyam Related Blog | Guides & Updates",
          "description": "Explore guides, updates, and insights on Udyam/MSME Registration — everything you need to know, explained clearly.",
-         "url": "https://udyamgov.com/blog/", 
+         "url": "<?php echo $baseUrl; ?>blog/", 
          "potentialAction": {
             "@type": "Action",
             "name": "MSME/Udyam/Udyog Aadhaar",
             "target": {
                "@type": "EntryPoint",
-               "urlTemplate": "https://udyamgov.com/blog/"
+               "urlTemplate": "<?php echo $baseUrl; ?>blog/"
             }
          },
          
@@ -141,7 +141,7 @@ if(isset($_GET['page']) && $_GET['page'] == 1){header('Location: /blog/');}
             "provider": {
                "@type": "Organization",
                "name": "UdyamGov",
-               "url": "https://udyamgov.com/blog/"
+               "url": "<?php echo $baseUrl; ?>blog/"
             },
             "areaServed": {
                "@type": "Country",
@@ -155,7 +155,7 @@ if(isset($_GET['page']) && $_GET['page'] == 1){header('Location: /blog/');}
                "name": "India"
                }
             },
-            "additionalType": "https://udyamgov.com/blog/"
+            "additionalType": "<?php echo $baseUrl; ?>blog/"
          }
          }
       </script>
@@ -167,13 +167,13 @@ if(isset($_GET['page']) && $_GET['page'] == 1){header('Location: /blog/');}
             "@type": "ListItem",
             "position": 1,
             "name": "Udyam Registration",
-            "item": "https://udyamgov.com"
+            "item": "<?php echo rtrim($baseUrl, '/'); ?>"
             },
             {
             "@type": "ListItem",
             "position": 2,
             "name": "Blogs",
-            "item": "https://udyamgov.com/blog/"
+            "item": "<?php echo $baseUrl; ?>blog/"
             }]
          }
       </script>
@@ -217,7 +217,7 @@ while ($row = $result->fetch_assoc())
 <div class="card-body">
 <h5 class="card-title"><?php echo str_replace('-', ' ', $row['title']); ?></h5>
 <p class="card-text"><?php echo urldecode($row['short_desc']); ?></p>
-<a href="https://udyamgov.com/blog/<?php echo $row['page_name']; ?>" alt="Read About <?php echo str_replace('-', ' ', $row['title']); ?>" hreflang="en" class="btn btn-green btn-sm p-2 mt-3" >READ MORE</a>
+<a href="<?php echo $baseUrl; ?>blog/<?php echo $row['page_name']; ?>" alt="Read About <?php echo str_replace('-', ' ', $row['title']); ?>" hreflang="en" class="btn btn-green btn-sm p-2 mt-3" >READ MORE</a>
 </div>
 </div>
 </div>
@@ -232,7 +232,7 @@ while ($row = $result->fetch_assoc())
       <div class="card-body">
          <h5 class="card-title">How to Download & Print Your Udyam Certificate — Steps That Actually Work </h5>
          <p class="card-text">Hello Business Owners, you finally registered on the Udyam portal, and now everyone is asking for the certificate, bank, tender, subsidy scheme, whatever. I know the exact pain. I’ve been there. Let me show you that it works in 2026.</p>
-         <a href="https://udyamgov.com/blog/download-udyam-certificate-online" alt="Read About How to Download & Print Your Udyam Certificate — Steps That Actually Work " hreflang="en" class="btn btn-green btn-sm p-2 mt-3" >READ MORE</a>
+         <a href="<?php echo $baseUrl; ?>blog/download-udyam-certificate-online" alt="Read About How to Download & Print Your Udyam Certificate — Steps That Actually Work " hreflang="en" class="btn btn-green btn-sm p-2 mt-3" >READ MORE</a>
       </div>
    </div>
 </div>

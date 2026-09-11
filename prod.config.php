@@ -9,7 +9,7 @@
  * @version 0.99, 01/06/2022
  * @package php
  * @since   1.00
- * @link https://udyamgov.com
+ * @link https://udyamsewa.com
  */
 
 if (!defined('PAYMENT_GATEWAY'))
@@ -20,7 +20,7 @@ if (!defined('PAYMENT_GATEWAY'))
 // for localhost
 if($_SERVER['HTTP_HOST'] != 'localhost')
 {
-    $webName = 'udyamgov.com';
+    $webName = 'udyamsewa.com';
     $webNumber = '7970788665';
     $webNameUpperCase = strtoupper($webName);
     $appKey = 'terigf1Number#';
@@ -71,7 +71,7 @@ if($_SERVER['HTTP_HOST'] != 'localhost')
     
 } else {
 
-    $webName = 'udyamgov.com';
+    $webName = 'udyamsewa.com';
     $webNumber = '7970788665';
     $webNameUpperCase = strtoupper($webName);
     $appKey = 'terigf1Number#';

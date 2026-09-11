@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -7,7 +8,7 @@
       <title>Forgot Udyam | Recover - MSME certificate</title>
       <meta name="description" content="Forgot Udyam Registration Number (URN) or Udyog Aadhaar Memorandum (UAM)? Recover it online and regain access to your certificate easily.">
       <meta name="keywords" content="Recover Forgotten Udyam Certificate, Forgot URN, Forgot UAM, Retrieve Udyam Certificate, Recover Udyam Registration Number, Find Lost Udyam Certificate, Udyam Certificate Recovery, Retrieve URN Online, Recover UAM Registration, Recover MSME Certificate Details">
-      <link rel="canonical" href="https://udyamgov.com/forgot-udyam-or-uam-registration-certificate-online.php" />
+      <link rel="canonical" href="<?php echo $baseUrl; ?>forgot-udyam-or-uam-registration-certificate-online.php" />
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
       <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
       <link rel="stylesheet" href="/assets/css/main.css">
@@ -18,8 +19,8 @@
       <meta name="theme-color" content="#385067">
       <meta property="og:title" content="Forgot Udyam | Recover - MSME certificate">
       <meta property="og:description" content="Forgot Udyam Registration Number (URN) or Udyog Aadhaar Memorandum (UAM)? Recover it online and regain access to your certificate easily.">
-      <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-udyam-registration.png" />
-      <meta property="og:url" content="https://udyamgov.com/forgot-udyam-or-uam-registration-certificate-online.php">
+      <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-udyam-registration.png" />
+      <meta property="og:url" content="<?php echo $baseUrl; ?>forgot-udyam-or-uam-registration-certificate-online.php">
       <meta property="og:type" content="website">
 
       <script type="application/ld+json">
@@ -28,13 +29,13 @@
          "@type": "WebPage",
          "name": "Forgot Udyam | Recover - MSME certificate",
          "description": " Forgot Udyam Registration Number (URN) or Udyog Aadhaar Memorandum (UAM)? Recover it online and regain access to your certificate easily.",
-         "url": "https://udyamgov.com/forgot-udyam-or-uam-registration-certificate-online.php", 
+         "url": "<?php echo $baseUrl; ?>forgot-udyam-or-uam-registration-certificate-online.php", 
          "potentialAction": {
             "@type": "Action",
             "name": "MSME/Udyam/Udyog Aadhaar Apply for Forget",
             "target": {
                "@type": "EntryPoint",
-               "urlTemplate": "https://udyamgov.com/forgot-udyam-or-uam-registration-certificate-online.php"
+               "urlTemplate": "<?php echo $baseUrl; ?>forgot-udyam-or-uam-registration-certificate-online.php"
             }
          },
          
@@ -50,7 +51,7 @@
                   "provider": {
                      "@type": "Organization",
                      "name": "UdyamGov",
-                     "url": "https://udyamgov.com/forgot-udyam-or-uam-registration-certificate-online.php"
+                     "url": "<?php echo $baseUrl; ?>forgot-udyam-or-uam-registration-certificate-online.php"
                   },
                   "areaServed": {
                      "@type": "Country",
@@ -64,7 +65,7 @@
                      "name": "India"
                      }
                   },
-                  "additionalType": "https://udyamgov.com/forgot-udyam-or-uam-registration-certificate-online.php"
+                  "additionalType": "<?php echo $baseUrl; ?>forgot-udyam-or-uam-registration-certificate-online.php"
                }
                }
       </script>
@@ -76,13 +77,13 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Udyam Registration Services",
-            "item": "https://udyamgov.com/"
+            "item": "<?php echo $baseUrl; ?>"
             },
             {
             "@type": "ListItem",
             "position": 2,
             "name": "Forgot Udyam Registration",
-            "item": "https://udyamgov.com/forgot-udyam-or-uam-registration-certificate-online.php"
+            "item": "<?php echo $baseUrl; ?>forgot-udyam-or-uam-registration-certificate-online.php"
             }]
          }
       </script>

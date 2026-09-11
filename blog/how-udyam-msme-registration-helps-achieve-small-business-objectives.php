@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Udyam Registration Benefits for Small Business Growth</title>
 <meta name="description" content="Explore Udyam Registration Benefits for small business expansion. Learn how MSME certification unlocks government schemes, collateral-free loans, and growth opportunities.">
-<link rel="canonical" href="https://udyamgov.com/blog/udyam-registration-benefits-for-small-business-growth" />
+<link rel="canonical" href="<?php echo $baseUrl; ?>blog/udyam-registration-benefits-for-small-business-growth" />
 <meta name="keywords" content="Udyam registration benefits for small businesses, Udyam registration for small business, Udyam registration for MSME, Udyam registration for business growth">
-<link rel="icon" href="https://udyamgov.com/assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
+<link rel="icon" href="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
 <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
@@ -25,17 +26,17 @@
 <!-- og tags -->
 <meta property="og:title" content="Udyam Registration Benefits for Small Business Growth">
 <meta property="og:site_name" content="Udyam-Gov">
-<meta property="og:url" content="https://udyamgov.com/blog/udyam-registration-benefits-for-small-business-growth">
+<meta property="og:url" content="<?php echo $baseUrl; ?>blog/udyam-registration-benefits-for-small-business-growth">
 <meta property="og:description" content="Explore Udyam Registration Benefits for small business expansion. Learn how MSME certification unlocks government schemes, collateral-free loans, and growth opportunities.">
 <meta property="og:type" content="business">
-<meta property="og:image" content="https://udyamgov.com/assets/image/udyam-registration-benefits-for-small-business-growth.webp">
+<meta property="og:image" content="<?php echo $baseUrl; ?>assets/image/udyam-registration-benefits-for-small-business-growth.webp">
 
 <!-- twitter cards -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@UdyamGov">
 <meta name="twitter:title" content="Udyam Registration Benefits for Small Business Growth">
 <meta name="twitter:description" content="Explore Udyam Registration Benefits for small business expansion. Learn how MSME certification unlocks government schemes, collateral-free loans, and growth opportunities.">
-<meta name="twitter:image" content="https://udyamgov.com/assets/image/udyam-registration-benefits-for-small-business-growth.webp">
+<meta name="twitter:image" content="<?php echo $baseUrl; ?>assets/image/udyam-registration-benefits-for-small-business-growth.webp">
 
 <!-- breadcrumb schema -->
 <script type="application/ld+json">
@@ -47,19 +48,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://udyamgov.com/"
+      "item": "<?php echo $baseUrl; ?>"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://udyamgov.com/blog/"
+      "item": "<?php echo $baseUrl; ?>blog/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "How Udyam Registration Supports Small Business Growth Objectives",
-      "item": "https://udyamgov.com/blog/udyam-registration-benefits-for-small-business-growth"
+      "item": "<?php echo $baseUrl; ?>blog/udyam-registration-benefits-for-small-business-growth"
     }
   ]
 }
@@ -71,9 +72,9 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "How Udyam Registration Supports Small Business Growth Objectives",
-  "url": "https://udyamgov.com/blog/udyam-registration-benefits-for-small-business-growth",
+  "url": "<?php echo $baseUrl; ?>blog/udyam-registration-benefits-for-small-business-growth",
   "description": "Explore Udyam Registration Benefits for small business expansion. Learn how MSME certification unlocks government schemes, collateral-free loans, and growth opportunities.",
-  "image": "https://udyamgov.com/assets/image/udyam-registration-benefits-for-small-business-growth.webp"
+  "image": "<?php echo $baseUrl; ?>assets/image/udyam-registration-benefits-for-small-business-growth.webp"
 }
 </script>
 
@@ -84,7 +85,7 @@
   "@type": "BlogPosting",
   "headline": "How Udyam Registration Supports Small Business Growth Objectives",
   "description": "Explore Udyam Registration Benefits for small business expansion. Learn how MSME certification unlocks government schemes, collateral-free loans, and growth opportunities.",
-  "image": "https://udyamgov.com/assets/image/udyam-registration-benefits-for-small-business-growth.webp",
+  "image": "<?php echo $baseUrl; ?>assets/image/udyam-registration-benefits-for-small-business-growth.webp",
   "author": {
     "@type": "Organization",
     "name": "Udyam Registration Consultancy Team"
@@ -94,7 +95,7 @@
     "name": "Udyam Sewa",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://udyamgov.com/assets/image/register-udyam-logo.png"
+      "url": "<?php echo $baseUrl; ?>assets/image/register-udyam-logo.png"
     }
   },
   "dateModified": "2026-08-01"
@@ -250,7 +251,7 @@
           </tbody>
         </table>
       </div>
-      <p><strong>Note: If you want to know <a href="https://udyamgov.com/blog/download-udyam-certificate-online" target="_blank" rel="noopener noreferrer">how to download and print the Udyam certificate</a>, read our blog for guidance.</strong></p>
+      <p><strong>Note: If you want to know <a href="<?php echo $baseUrl; ?>blog/download-udyam-certificate-online" target="_blank" rel="noopener noreferrer">how to download and print the Udyam certificate</a>, read our blog for guidance.</strong></p>
     </div>
 
     <!-- How Udyam Registration Supports Small Businesses -->
@@ -320,7 +321,7 @@
           </tbody>
         </table>
       </div>
-      <p><strong>Note: If you want to <a href="https://udyamgov.com/update-udyam-registration-certificate-online.php" target="_blank" rel="noopener noreferrer">Update Udyam Certificate</a>, you can easily update it through our website.</strong></p>
+      <p><strong>Note: If you want to <a href="<?php echo $baseUrl; ?>update-udyam-registration-certificate-online.php" target="_blank" rel="noopener noreferrer">Update Udyam Certificate</a>, you can easily update it through our website.</strong></p>
     </div>
 
     <!-- Why Matters -->
@@ -334,7 +335,7 @@
     <div class="blog-card conclusion-box" id="conclusion">
       <h2>Conclusion</h2>
       <p>Small businesses need a clear foundation to achieve their growth objectives. For eligible enterprises, Udyam Registration can be one part of the foundation by establishing their MSME identity and helping them explore relevant business opportunities. The key is to use registration as a starting point rather than treating it as the complete growth strategy. The business owners need to pair good registration with good planning and business practices, such as market analysis, customer creation, financial management, and compliance.</p>
-      <p>Give Your Business a Recognized MSME Identity — <a href="https://udyamgov.com/" style="color: #e8b84b; font-weight: 600;">Apply Now</a>.</p>
+      <p>Give Your Business a Recognized MSME Identity — <a href="<?php echo $baseUrl; ?>" style="color: #e8b84b; font-weight: 600;">Apply Now</a>.</p>
     </div>
 
     <!-- FAQ -->
@@ -396,8 +397,8 @@
     <div class="blog-card">
       <h2>Useful Links</h2>
       <ul>
-        <li><a href="https://udyamgov.com/blog/how-to-apply-for-udyam-registration-for-service-sector">Udyam Registration for Service Sector</a></li>
-        <li><a href="https://udyamgov.com/blog/udyam-registration-without-pan">Udyam Registration without PAN Card- Is it Possible</a></li>
+        <li><a href="<?php echo $baseUrl; ?>blog/how-to-apply-for-udyam-registration-for-service-sector">Udyam Registration for Service Sector</a></li>
+        <li><a href="<?php echo $baseUrl; ?>blog/udyam-registration-without-pan">Udyam Registration without PAN Card- Is it Possible</a></li>
       </ul>
     </div>
 

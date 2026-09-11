@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -7,7 +8,7 @@
       <title>Udyam Online Registration | MSME Online</title>
       <meta name="description" content="Apply for your Udyam Registration Certificate online with ease. Get MSME recognition, access government benefits, and download your Udyog Aadhaar certificate quickly.">
       <meta name="keywords" content="Udyam Registration, Udyam Certificate Portal, Apply for Udyam Online, Udyam Registration Online, Udyam Certificate Application, MSME Udyam Registration, Online Udyam Certificate, Udyam Registration Process, Udyam Portal Services, Apply for Udyam Certificate">
-      <link rel="canonical" href="https://udyamgov.com/" />
+      <link rel="canonical" href="<?php echo $baseUrl; ?>" />
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
       <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
       <link rel="stylesheet" href="/assets/css/main.css">
@@ -18,22 +19,22 @@
       <meta name="theme-color" content="#385067">
       <meta property="og:title" content="Udyam Registration Certificate | MSME / Udyog Aadhar Online" />
       <meta property="og:description" content="Apply for your Udyam Registration Certificate online with ease. Get MSME recognition, access government benefits, and download your Udyog Aadhaar certificate quickly." />
-      <meta property="og:url" content="https://udyamgov.com/" />
+      <meta property="og:url" content="<?php echo $baseUrl; ?>" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-udyam-registration.png" />
+      <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-udyam-registration.png" />
       <script type="application/ld+json">
          {
          "@context": "https://schema.org",
          "@type": "WebPage",
          "name": "Udyam Registration Certificate | MSME / Udyog Aadhar Online",
          "description": "Apply for your Udyam Registration Certificate online with ease. Get MSME recognition, access government benefits, and download your Udyog Aadhaar certificate quickly.",
-         "url": "https://udyamgov.com/", 
+         "url": "<?php echo $baseUrl; ?>", 
          "potentialAction": {
             "@type": "Action",
             "name": "Register Udyam",
             "target": {
                "@type": "EntryPoint",
-               "urlTemplate": "https://udyamgov.com/"
+               "urlTemplate": "<?php echo $baseUrl; ?>"
             }
          },
          
@@ -50,7 +51,7 @@
             "provider": {
                "@type": "Organization",
                "name": "UdyamGov",
-               "url": "https://udyamgov.com/"
+               "url": "<?php echo $baseUrl; ?>"
             },
             "areaServed": {
                "@type": "Country",
@@ -64,7 +65,7 @@
                "name": "India"
                }
             },
-            "additionalType": "https://udyamgov.com/"
+            "additionalType": "<?php echo $baseUrl; ?>"
          }
          }
       </script>
@@ -76,7 +77,7 @@
          "@type": "ListItem",
          "position": 1,
          "name": "Udyam Registration Portal",
-         "item": "https://udyamgov.com/"
+         "item": "<?php echo $baseUrl; ?>"
          }
          ]
       }

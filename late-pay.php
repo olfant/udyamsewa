@@ -29,22 +29,22 @@ if((isset($_GET['id']))&&(isset($_GET['table']))) {
       <meta name="theme-color" content="#385067">
       <meta property="og:title" content="Checkout Form | Payment gateway  - Register Udyam" />
       <meta property="og:description" content="Checkout Form - Payment gateway, Please pay our fee to process further - Register Udyam" />
-      <meta property="og:url" content="https://udyamgov.com/late-pay.php" />
+      <meta property="og:url" content="<?php echo $baseUrl; ?>late-pay.php" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
+      <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
       <script type="application/ld+json">
       {
          "@context": "https://schema.org",
          "@type": "WebPage",
          "name": "Checkout | UdyamGov",
          "description": "Checkout, Please pay to process Udyam - UdyamGov",
-         url": "https://udyamgov.com/late-pay.php", 
+         url": "<?php echo $baseUrl; ?>late-pay.php", 
          "potentialAction": {
             "@type": "Action",
             "name": "MSME/Udyam/Udyog Aadhaar - Payment",
             "target": {
                "@type": "EntryPoint",
-               "urlTemplate": "https://udyamgov.com/late-pay.php"
+               "urlTemplate": "<?php echo $baseUrl; ?>late-pay.php"
             }
          },
          
@@ -61,7 +61,7 @@ if((isset($_GET['id']))&&(isset($_GET['table']))) {
             "provider": {
                "@type": "Organization",
                "name": "UdyamGov",
-               "url": "https://udyamgov.com/late-pay.php"
+               "url": "<?php echo $baseUrl; ?>late-pay.php"
             },
             "areaServed": {
                "@type": "Country",
@@ -75,7 +75,7 @@ if((isset($_GET['id']))&&(isset($_GET['table']))) {
                "name": "India"
                }
             },
-            "additionalType": "https://udyamgov.com/late-pay.php"
+            "additionalType": "<?php echo $baseUrl; ?>late-pay.php"
          }
          }
       </script>

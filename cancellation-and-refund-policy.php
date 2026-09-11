@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +9,7 @@
    <title>Cancellation & Refund | MSME - Udyam Sewa</title>
    <meta name="description" content="Our Cancellation & Refund Policy ensures transparency and fairness for all Udyam Registration services. Read the full terms before proceeding.">
    <meta name="keywords" content="Cancellation and Refund Policy, Register Udyam Refund Policy, Udyam Registration Refund, Cancel Udyam Registration, Refund for Udyam Services, Udyam Certificate Cancellation, Udyam Registration Payment Refund, Register Udyam Cancellation Policy, Refund Policy for Udyam Services, MSME Registration Refund">
-   <link rel="canonical" href="https://udyamgov.com/cancellation-and-refund-policy.php" />
+   <link rel="canonical" href="<?php echo $baseUrl; ?>cancellation-and-refund-policy.php" />
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
    <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
    <script src="/assets/js/jquery.min.js"></script>
@@ -20,8 +21,8 @@
    <meta name="theme-color" content="#385067">
    <meta property="og:title" content="Cancellation & Refund | MSME - Udyam Sewa">
    <meta property="og:description" content="Our Cancellation & Refund Policy ensures transparency and fairness for all Udyam Registration services. Read the full terms before proceeding.">
-   <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
-   <meta property="og:url" content="https://udyamgov.com/cancellation-and-refund-policy.php">
+   <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
+   <meta property="og:url" content="<?php echo $baseUrl; ?>cancellation-and-refund-policy.php">
    <meta property="og:type" content="website">
 
    <script type="application/ld+json">
@@ -30,13 +31,13 @@
          "@type": "WebPage",
          "name": "Cancellation & Refund | MSME - Udyam Sewa",
          "description": "Our Cancellation & Refund Policy ensures transparency and fairness for all Udyam Registration services. Read the full terms before proceeding.",
-         "url": "https://udyamgov.com/cancellation-and-refund-policy.php",
+         "url": "<?php echo $baseUrl; ?>cancellation-and-refund-policy.php",
          "potentialAction": {
             "@type": "Action",
-            "name": "MSME/Udyam/Udyog Aadhaar - udyamgov.com Private Consultancy",
+            "name": "MSME/Udyam/Udyog Aadhaar - udyamsewa.com Private Consultancy",
             "target": {
                "@type": "EntryPoint",
-               "urlTemplate": "https://udyamgov.com/cancellation-and-refund-policy.php"
+               "urlTemplate": "<?php echo $baseUrl; ?>cancellation-and-refund-policy.php"
             }
          },
          "sameAs": [
@@ -46,12 +47,12 @@
         ],
          "mainEntity": {
             "@type": "Service",
-            "name": "MSME/Udyam Service - udyamgov.com Private Consultancy",
+            "name": "MSME/Udyam Service - udyamsewa.com Private Consultancy",
             "serviceType": "Business Private Consultancy",
             "provider": {
                "@type": "Organization",
                "name": "UdyamGov",
-               "url": "https://udyamgov.com/cancellation-and-refund-policy.php"
+               "url": "<?php echo $baseUrl; ?>cancellation-and-refund-policy.php"
             },
             "areaServed": {
                "@type": "Country",
@@ -65,7 +66,7 @@
                   "name": "India"
                }
             },
-            "additionalType": "https://udyamgov.com/cancellation-and-refund-policy.php"
+            "additionalType": "<?php echo $baseUrl; ?>cancellation-and-refund-policy.php"
          }
       }
    </script>
@@ -77,7 +78,7 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Cancellation And Refund - Policy",
-            "item": "https://udyamgov.com/cancellation-and-refund-policy.php"
+            "item": "<?php echo $baseUrl; ?>cancellation-and-refund-policy.php"
          }]
       }
    </script>

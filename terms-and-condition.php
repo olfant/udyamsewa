@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
     <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +9,7 @@
     <title>Terms and Conditions | Udyam Registration Portal</title>
     <meta name="description" content="Please review our Terms and Conditions carefully for Udyam Registration services before proceeding. Clear terms, no hidden surprises.">
     <meta name="keywords" content="Terms and Conditions, UdyamGov Terms, User Agreement, Service Terms, Website Terms of Use, Legal Terms, Conditions of Service, Udyam Registration Terms, MSME Policy Terms, UdyamGov Conditions">
-    <link rel="canonical" href="https://udyamgov.com/terms-and-condition.php" />
+    <link rel="canonical" href="<?php echo $baseUrl; ?>terms-and-condition.php" />
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -20,8 +21,8 @@
     <meta name="theme-color" content="#385067">
     <meta property="og:title" content="Terms and Conditions | Udyam Registration Portal">
     <meta property="og:description" content="Please review our Terms and Conditions carefully for Udyam Registration services before proceeding. Clear terms, no hidden surprises.">
-    <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.pngg" />
-    <meta property="og:url" content="https://udyamgov.com/terms-and-condition.php">
+    <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.pngg" />
+    <meta property="og:url" content="<?php echo $baseUrl; ?>terms-and-condition.php">
     <meta property="og:type" content="website">
     <style>
         .content-page-wrapper {
@@ -92,13 +93,13 @@
          "@type": "WebPage",
          "name": "Terms and Conditions | Udyam Registration Services",
          "description": "Please review our Terms and Conditions carefully for Udyam Registration services before proceeding. Clear terms, no hidden surprises.",
-         "url": "https://udyamgov.com/terms-and-condition.php", 
+         "url": "<?php echo $baseUrl; ?>terms-and-condition.php", 
          "potentialAction": {
             "@type": "Action",
-            "name": "MSME / Udyam Service - udyamgov.com Private Consultancy",
+            "name": "MSME / Udyam Service - udyamsewa.com Private Consultancy",
             "target": {
                "@type": "EntryPoint",
-               "urlTemplate": "https://udyamgov.com/terms-and-condition.php"
+               "urlTemplate": "<?php echo $baseUrl; ?>terms-and-condition.php"
             }
          },
          
@@ -109,12 +110,12 @@
         ],
         "mainEntity": {
             "@type": "Service",
-            "name": "MSME / Udyam Service - udyamgov.com Private Consultancy",
+            "name": "MSME / Udyam Service - udyamsewa.com Private Consultancy",
             "serviceType": "Business Private Consultancy",
             "provider": {
                "@type": "Organization",
                "name": "UdyamGov",
-               "url": "https://udyamgov.com/terms-and-condition.php"
+               "url": "<?php echo $baseUrl; ?>terms-and-condition.php"
             },
             "areaServed": {
                "@type": "Country",
@@ -128,7 +129,7 @@
                "name": "India"
                }
             },
-            "additionalType": "https://udyamgov.com/terms-and-condition.php"
+            "additionalType": "<?php echo $baseUrl; ?>terms-and-condition.php"
          }
          }
     </script>
@@ -140,7 +141,7 @@
          "@type": "ListItem",
          "position": 1,
          "name": "Term And Condition",
-         "item": "https://udyamgov.com/terms-and-condition.php"
+         "item": "<?php echo $baseUrl; ?>terms-and-condition.php"
          }]
       }
     </script>

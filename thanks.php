@@ -9,7 +9,7 @@ include_once('./config.php');
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thank You | Register Udyam</title>
     <meta name="description" content="Your submission has been received successfully. We appreciate your effort in reaching out to us">
-    <link rel="canonical" href="https://udyamgov.com/thanks.php" />
+    <link rel="canonical" href="<?php echo $baseUrl; ?>thanks.php" />
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <script src="/assets/js/jquery.min.js"></script>
@@ -21,22 +21,22 @@ include_once('./config.php');
       <meta name="theme-color" content="#385067">
       <meta property="og:title" content="Thank You | Register Udyam" />
       <meta property="og:description" content="Your submission has been received successfully. We appreciate your effort in reaching out to us" />
-      <meta property="og:url" content="https://udyamgov.com/thanks.php" />
+      <meta property="og:url" content="<?php echo $baseUrl; ?>thanks.php" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
+      <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
       <script type="application/ld+json">
       {
          "@context": "https://schema.org",
          "@type": "WebPage",
          "name": "Thank You | Register Udyam",
          "description": "Your submission has been received successfully. We appreciate your effort in reaching out to us",
-         url": "https://udyamgov.com/thanks.php", 
+         url": "<?php echo $baseUrl; ?>thanks.php", 
          "potentialAction": {
             "@type": "Action",
             "name": "MSME/Udyam/Udyog Aadhaar - Thank you",
             "target": {
                "@type": "EntryPoint",
-               "urlTemplate": "https://udyamgov.com/thanks.php"
+               "urlTemplate": "<?php echo $baseUrl; ?>thanks.php"
             }
          },
          
@@ -53,7 +53,7 @@ include_once('./config.php');
             "provider": {
                "@type": "Organization",
                "name": "UdyamGov",
-               "url": "https://udyamgov.com/thanks.php"
+               "url": "<?php echo $baseUrl; ?>thanks.php"
             },
             "areaServed": {
                "@type": "Country",
@@ -67,7 +67,7 @@ include_once('./config.php');
                "name": "India"
                }
             },
-            "additionalType": "https://udyamgov.com/thanks.php"
+            "additionalType": "<?php echo $baseUrl; ?>thanks.php"
          }
          }
       </script>

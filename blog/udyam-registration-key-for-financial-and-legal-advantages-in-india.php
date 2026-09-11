@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Udyam Registration | Financial and Legal Benefits in India</title>
 <meta name="description" content="Learn how a Udyam registration certificate is a key to financial benefits, legal advantages, and many more for small businesses in India.">
-<link rel="canonical" href="https://udyamgov.com/blog/udyam-registration-key-for-financial-and-legal-advantages-in-india" />
+<link rel="canonical" href="<?php echo $baseUrl; ?>blog/udyam-registration-key-for-financial-and-legal-advantages-in-india" />
 <meta name="keywords" content="Udyam Registration, MSME benefits, financial benefits, legal advantages, Udyam certificate">
-<link rel="icon" href="https://udyamgov.com/assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
+<link rel="icon" href="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
 <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
@@ -25,17 +26,17 @@
 <!-- og tags -->
 <meta property="og:title" content="Udyam Registration is key for Financial and Legal Benefits in India">
 <meta property="og:site_name" content="Udyam-Gov">
-<meta property="og:url" content="https://udyamgov.com/articles/udyam-registration-key-for-financial-and-legal-advantages-in-india">
+<meta property="og:url" content="<?php echo $baseUrl; ?>articles/udyam-registration-key-for-financial-and-legal-advantages-in-india">
 <meta property="og:description" content="Learn how a Udyam registration certificate is a key to financial benefits, legal advantages, and many more for small businesses in India.">
 <meta property="og:type" content="business">
-<meta property="og:image" content="https://udyamgov.com/assets/image/udyam-registration-key-for-financial-and-legal-advantages-in-india.webp">
+<meta property="og:image" content="<?php echo $baseUrl; ?>assets/image/udyam-registration-key-for-financial-and-legal-advantages-in-india.webp">
 
 <!-- twitter cards -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@UdyamGov">
 <meta name="twitter:title" content="Udyam Registration is key for Financial and Legal Benefits in India">
 <meta name="twitter:description" content="Learn how a Udyam registration certificate is a key to financial benefits, legal advantages, and many more for small businesses in India.">
-<meta name="twitter:image" content="https://udyamgov.com/assets/image/udyam-registration-key-for-financial-and-legal-advantages-in-india.webp">
+<meta name="twitter:image" content="<?php echo $baseUrl; ?>assets/image/udyam-registration-key-for-financial-and-legal-advantages-in-india.webp">
 
 
 
@@ -49,19 +50,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://udyamgov.com/"
+      "item": "<?php echo $baseUrl; ?>"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://udyamgov.com/blog/"
+      "item": "<?php echo $baseUrl; ?>blog/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Udyam Registration is key for Financial and Legal Benefits in India",
-      "item": "https://udyamgov.com/articles/udyam-registration-key-for-financial-and-legal-advantages-in-india"
+      "item": "<?php echo $baseUrl; ?>articles/udyam-registration-key-for-financial-and-legal-advantages-in-india"
     }
   ]
 }
@@ -73,9 +74,9 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Udyam Registration is key for Financial and Legal Benefits in India",
-  "url": "https://udyamgov.com/articles/udyam-registration-key-for-financial-and-legal-advantages-in-india",
+  "url": "<?php echo $baseUrl; ?>articles/udyam-registration-key-for-financial-and-legal-advantages-in-india",
   "description": "Learn how a Udyam registration certificate is a key to financial benefits, legal advantages, and many more for small businesses in India.",
-  "image": "https://udyamgov.com/assets/image/udyam-registration-key-for-financial-and-legal-advantages-in-india.webp"
+  "image": "<?php echo $baseUrl; ?>assets/image/udyam-registration-key-for-financial-and-legal-advantages-in-india.webp"
 }
 </script>
 
@@ -86,7 +87,7 @@
   "@type": "BlogPosting",
   "headline": "Udyam Registration: Key Financial and Legal Advantages for MSMEs in India",
   "description": "Learn how a Udyam registration certificate is a key to financial benefits, legal advantages, and many more for small businesses in India.",
-  "image": "https://udyamgov.com/assets/image/udyam-registration-key-for-financial-and-legal-advantages-in-india.webp",
+  "image": "<?php echo $baseUrl; ?>assets/image/udyam-registration-key-for-financial-and-legal-advantages-in-india.webp",
   "author": {
     "@type": "Organization",
     "name": "Udyam Sewa"
@@ -96,7 +97,7 @@
     "name": "Udyam Sewa",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://udyamgov.com/assets/image/register-udyam-logo.png"
+      "url": "<?php echo $baseUrl; ?>assets/image/register-udyam-logo.png"
     }
   },
   "datePublished": "2026-05-08",
@@ -178,7 +179,7 @@ All the information is self-declared, and it is verified from the government dat
 
     <!-- Intro card -->
     <div class="blog-card">
-      <p>The Indian government has taken many steps to protect small businesses in this competitive environment; one of them is <a href="https://udyamgov.com/"><strong>Udyam Registration</strong></a>. 
+      <p>The Indian government has taken many steps to protect small businesses in this competitive environment; one of them is <a href="<?php echo $baseUrl; ?>"><strong>Udyam Registration</strong></a>. 
         Udyam registration provides small businesses with ample financial and legal support, enabling them to survive in a competitive environment.
       </p>
       <p>In this blog, we will understand what kind of financial and legal advantages are available for MSMEs after Udyam Registration.</p>
@@ -214,7 +215,7 @@ All the information is self-declared, and it is verified from the government dat
       <p>👉 It helps to reduce financial burdens and makes it easy for small businesses to bid on government tenders.</p>
 
       <h3>Eligible for Government Subsidies and Schemes</h3>
-      <p>With a <a href="https://udyamgov.com/print-udyam-registration-certificate-online.php">Udyam Certificate</a>, your MSME is eligible for:</p>
+      <p>With a <a href="<?php echo $baseUrl; ?>print-udyam-registration-certificate-online.php">Udyam Certificate</a>, your MSME is eligible for:</p>
       <ul>
         <li>Technology Upgradation Support</li>
         <li>ISO Certification Reimbursement</li>
@@ -287,7 +288,7 @@ All the information is self-declared, and it is verified from the government dat
         registration is your gateway to all of it.
       </p>
       <p>You just need to give some time for registration. Once the registration is over and verification is done, you will receive the Udyam Certificate, which acts as 
-        an identity card for your business. Our <a href="https://udyamgov.com/" style="color: #e8b84b; font-weight: 600;">Udyam Portal</a> makes the registration process 
+        an identity card for your business. Our <a href="<?php echo $baseUrl; ?>" style="color: #e8b84b; font-weight: 600;">Udyam Portal</a> makes the registration process 
         easy for you. Don't delay and register now!
       </p>
     </div>

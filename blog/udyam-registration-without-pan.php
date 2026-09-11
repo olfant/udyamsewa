@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Udyam Registration without PAN - UdyamGov</title>
     <meta name="description" content="Learn how to apply for Udyam Registration without a PAN card. Discover eligibility, required documents, and the step-by-step process for MSME registration in India.">
-    <link rel="canonical" href="https://udyamgov.com/blog/udyam-registration-without-pan" />
+    <link rel="canonical" href="<?php echo $baseUrl; ?>blog/udyam-registration-without-pan" />
     <meta name="keywords" content="Udyam Registration, MSME benefits, financial benefits, legal advantages, Udyam certificate">
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -51,7 +52,7 @@
 
         <!-- Intro card -->
         <div class="blog-card">
-          <p>Starting a business in India has become easier with online registration systems like <a href="https://udyamgov.com/">Udyam Registration</a>. Many small business owners and service providers want to register their business under MSME to get government benefits. But one common question people ask is, "Can Udyam Registration be done without a PAN Card in 2026?"</p>
+          <p>Starting a business in India has become easier with online registration systems like <a href="<?php echo $baseUrl; ?>">Udyam Registration</a>. Many small business owners and service providers want to register their business under MSME to get government benefits. But one common question people ask is, "Can Udyam Registration be done without a PAN Card in 2026?"</p>
           <p>The simple answer is: In most cases, a PAN Card is now important for Udyam Registration. However, there are still some situations where small businesses or individuals may start the process with limited documents. In this blog, we will explain everything so that anyone can understand the process easily.</p>
 
           <!-- Table of Contents -->
@@ -107,7 +108,7 @@
               <div class="step-num">1</div>
               <div class="step-body">
                 <h3>Visit the Udyam Registration Portal</h3>
-                <p>First, you have to visit the authentic <a href="https://udyamgov.com/">Udyam Registration Portal</a>.</p>
+                <p>First, you have to visit the authentic <a href="<?php echo $baseUrl; ?>">Udyam Registration Portal</a>.</p>
                 <img src="./image/udyam-registration-without-pan-step1.webp" alt="Visit the Udyam Registration Portal" class="img-fluid img1 fakeimg">
               </div>
             </li>
@@ -160,7 +161,7 @@
             <li class="step-item">
               <div class="step-num">7</div>
               <div class="step-body">
-                <h3>Receive the <a href="https://udyamgov.com/">Udyam Registration Certificate</a> Online</h3>
+                <h3>Receive the <a href="<?php echo $baseUrl; ?>">Udyam Registration Certificate</a> Online</h3>
                 <p>Once approved, you will receive your Udyam Registration Certificate online on your registered email ID.</p>
                 <img src="./image/udyam-registration-without-pan-step7.webp" alt="Receive the Udyam Registration Certificate Online" class="img-fluid img1 fakeimg">
             </div>
@@ -235,7 +236,7 @@
         <!-- Conclusion -->
         <div class="blog-card conclusion-box" id="conclusion">
           <h2>Conclusion</h2>
-          <p><a href="https://udyamgov.com/">Udyam Registration</a> is very useful for small businesses, startups, traders, and service providers in India. It provides many government benefits and improves business growth opportunities.</p>
+          <p><a href="<?php echo $baseUrl; ?>">Udyam Registration</a> is very useful for small businesses, startups, traders, and service providers in India. It provides many government benefits and improves business growth opportunities.</p>
           <p>In 2026, a PAN card will become an important requirement for most Udyam Registration applications. While some small proprietors may begin the process using Aadhaar, PAN is usually needed for complete verification.</p>
           <p>To register your business under MSME, keep your Aadhaar and PAN ready for a faster, more secure application. Proper registration unlocks better opportunities, government support, and market trust.</p>
         </div>

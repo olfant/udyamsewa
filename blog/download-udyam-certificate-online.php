@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Download & Print Udyam Registration Certificate Online| MSME Guide</title>
 <meta name="description" content="Download your Udyam Certificate online instantly. Learn how to print your Udyam Registration Certificate from the Udyam Portal with a quick step-by-step guide.">
-<link rel="canonical" href="https://udyamgov.com/print-udyam-registration-certificate-online.php" />
+<link rel="canonical" href="<?php echo $baseUrl; ?>print-udyam-registration-certificate-online.php" />
 <meta name="keywords" content="Udyam registration certificate download, Udyam certificate downloads, Udyam registration certificate, Download udyam certificate online, Udyam certificate PDF download, Print udyam registration certificate, Udyam certificate print">
-<link rel="icon" href="https://udyamgov.com/assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
+<link rel="icon" href="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
 <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
@@ -25,17 +26,17 @@
 <!-- og tags -->
 <meta property="og:title" content="Download & Print Udyam Registration Certificate Online| MSME Guide">
 <meta property="og:site_name" content="Udyam-Gov">
-<meta property="og:url" content="https://udyamgov.com/print-udyam-registration-certificate-online.php">
+<meta property="og:url" content="<?php echo $baseUrl; ?>print-udyam-registration-certificate-online.php">
 <meta property="og:description" content="Download your Udyam Certificate online instantly. Learn how to print your Udyam Registration Certificate from the Udyam Portal with a quick step-by-step guide.">
 <meta property="og:type" content="business">
-<meta property="og:image" content="https://udyamgov.com/assets/image/how-to-download-and-print-udyam-registration-certificate-online.webp">
+<meta property="og:image" content="<?php echo $baseUrl; ?>assets/image/how-to-download-and-print-udyam-registration-certificate-online.webp">
 
 <!-- twitter cards -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@UdyamGov">
 <meta name="twitter:title" content="Download & Print Udyam Registration Certificate Online| MSME Guide">
 <meta name="twitter:description" content="Download your Udyam Certificate online instantly. Learn how to print your Udyam Registration Certificate from the Udyam Portal with a quick step-by-step guide.">
-<meta name="twitter:image" content="https://udyamgov.com/assets/image/how-to-download-and-print-udyam-registration-certificate-online.webp">
+<meta name="twitter:image" content="<?php echo $baseUrl; ?>assets/image/how-to-download-and-print-udyam-registration-certificate-online.webp">
 
 <!-- breadcrumb schema -->
 <script type="application/ld+json">
@@ -47,19 +48,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://udyamgov.com/"
+      "item": "<?php echo $baseUrl; ?>"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://udyamgov.com/blog/"
+      "item": "<?php echo $baseUrl; ?>blog/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "How to Download and Print Udyam Registration Certificate Online",
-      "item": "https://udyamgov.com/print-udyam-registration-certificate-online.php"
+      "item": "<?php echo $baseUrl; ?>print-udyam-registration-certificate-online.php"
     }
   ]
 }
@@ -71,9 +72,9 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "How to Download and Print Udyam Registration Certificate Online",
-  "url": "https://udyamgov.com/print-udyam-registration-certificate-online.php",
+  "url": "<?php echo $baseUrl; ?>print-udyam-registration-certificate-online.php",
   "description": "Download your Udyam Certificate online instantly. Learn how to print your Udyam Registration Certificate from the Udyam Portal with a quick step-by-step guide.",
-  "image": "https://udyamgov.com/assets/image/how-to-download-and-print-udyam-registration-certificate-online.webp"
+  "image": "<?php echo $baseUrl; ?>assets/image/how-to-download-and-print-udyam-registration-certificate-online.webp"
 }
 </script>
 
@@ -84,7 +85,7 @@
   "@type": "BlogPosting",
   "headline": "How to Download and Print Udyam Registration Certificate Online",
   "description": "Download your Udyam Certificate online instantly. Learn how to print your Udyam Registration Certificate from the Udyam Portal with a quick step-by-step guide.",
-  "image": "https://udyamgov.com/assets/image/how-to-download-and-print-udyam-registration-certificate-online.webp",
+  "image": "<?php echo $baseUrl; ?>assets/image/how-to-download-and-print-udyam-registration-certificate-online.webp",
   "author": {
     "@type": "Organization",
     "name": "Udyam Registration Consultancy Team"
@@ -94,7 +95,7 @@
     "name": "Udyam Sewa",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://udyamgov.com/assets/image/register-udyam-logo.png"
+      "url": "<?php echo $baseUrl; ?>assets/image/register-udyam-logo.png"
     }
   },
   "dateModified": "2026-08-01"
@@ -222,7 +223,7 @@
     <!-- What is a Udyam Registration Certificate -->
     <div class="blog-card" id="what-is-udyam-certificate">
       <h2>What is a Udyam Registration Certificate?</h2>
-      <p>A <a href="https://udyamgov.com/" target="_blank" rel="noopener noreferrer">Udyam Certificate</a> is the digital certificate issued after successful Udyam registration of an eligible MSME.</p>
+      <p>A <a href="<?php echo $baseUrl; ?>" target="_blank" rel="noopener noreferrer">Udyam Certificate</a> is the digital certificate issued after successful Udyam registration of an eligible MSME.</p>
       <p>It contains important business details such as:</p>
       <ul>
         <li>Udyam Registration Number</li>
@@ -269,7 +270,7 @@
             <p>On the Udyam Registration Portal:</p>
             <ul class="field-list">
               <li>Open the <strong>Print/Verify</strong> section.</li>
-              <li>Click on <a href="https://udyamgov.com/print-udyam-registration-certificate-online.php" target="_blank" rel="noopener noreferrer">Print Udyam Certificate</a>.</li>
+              <li>Click on <a href="<?php echo $baseUrl; ?>print-udyam-registration-certificate-online.php" target="_blank" rel="noopener noreferrer">Print Udyam Certificate</a>.</li>
             </ul>
             <p>The portal provides a separate option for printing your Udyam Certificate.</p>
           </div>
@@ -344,7 +345,7 @@
         </li>
       </ol>
 
-      <p><strong>Note: Need to Download your <a href="https://udyamgov.com/udyam-registration-annexture-certificate-online.php" target="_blank" rel="noopener noreferrer">Udyam Annexure</a>? Get it easily through our website.</strong></p>
+      <p><strong>Note: Need to Download your <a href="<?php echo $baseUrl; ?>udyam-registration-annexture-certificate-online.php" target="_blank" rel="noopener noreferrer">Udyam Annexure</a>? Get it easily through our website.</strong></p>
     </div>
 
     <!-- How to Print -->
@@ -411,7 +412,7 @@
       <h2>Conclusion</h2>
       <p>Printing your Udyam registration certificate₁ is a very simple process involve only two easy steps. Your enterprise is registered, and you can get the certificate by using the credentials and verification method provided by the Udyam Registration Portal.</p>
       <p>Verify the information on your certificate after you download it and keep a digital copy back up in your phone or computer. Since you may be required to submit your Udyam details for work related to your business, having a printed copy at home or work could come in handy.</p>
-      <p>Get Your Udyam Registration Certificate Online: Complete your Udyam Registration quickly and easily with expert assistance. 👉 <a href="https://udyamgov.com/" style="color: #e8b84b; font-weight: 600;">Apply Now For New Udyam Registration</a></p>
+      <p>Get Your Udyam Registration Certificate Online: Complete your Udyam Registration quickly and easily with expert assistance. 👉 <a href="<?php echo $baseUrl; ?>" style="color: #e8b84b; font-weight: 600;">Apply Now For New Udyam Registration</a></p>
     </div>
 
     <!-- FAQ -->
@@ -497,8 +498,8 @@
     <div class="blog-card">
       <h2>Useful Links</h2>
       <ul>
-        <li><a href="https://udyamgov.com/blog/udyam-registration-benefit-retail-startup">How Retail Startups Can Benefit from Udyam Registration</a></li>
-        <li><a href="https://udyamgov.com/blog/udyam-registration-without-pan">Udyam Registration Without PAN</a></li>
+        <li><a href="<?php echo $baseUrl; ?>blog/udyam-registration-benefit-retail-startup">How Retail Startups Can Benefit from Udyam Registration</a></li>
+        <li><a href="<?php echo $baseUrl; ?>blog/udyam-registration-without-pan">Udyam Registration Without PAN</a></li>
       </ul>
     </div>
 

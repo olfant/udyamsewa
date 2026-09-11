@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <title>Complaint Order | Udyam Sewa - MSME registration</title>
     <meta name="description" content="Facing an issue with your Udyam Registration or payment? Raise a complaint here -we're here to resolve issues quickly and fairly.">
     <meta name="keywords" content="Complaint Order Page, UdyamGov Complaint Orders, File Udyam Complaint, Track Complaint Order, Udyam Registration Issues, MSME Complaint Tracking, Submit Udyam Complaint Order, Register Complaint for Udyam Services, Resolve Udyam Order Issues, Udyam Support and Complaints">
-    <link rel="canonical" href="https://udyamgov.com/complaint-order.php" />
+    <link rel="canonical" href="<?php echo $baseUrl; ?>complaint-order.php" />
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <script src="/assets/js/jquery.min.js"></script>
@@ -21,8 +22,8 @@
     <meta name="theme-color" content="#385067">
     <meta property="og:title" content="Complaint Order | Udyam Sewa - MSME registration">
     <meta property="og:description" content="Facing an issue with your Udyam Registration or payment? Raise a complaint here -we're here to resolve issues quickly and fairly.">
-    <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
-    <meta property="og:url" content="https://udyamgov.com/complaint-order.php">
+    <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
+    <meta property="og:url" content="<?php echo $baseUrl; ?>complaint-order.php">
     <meta property="og:type" content="website">
     <style>
         .content-page-wrapper {
@@ -97,13 +98,13 @@
         "@type": "WebPage",
         "name": "Complaint Order | Udyam Sewa - MSME registration",
         "description": "Facing an issue with your Udyam Registration or payment? Raise a complaint here -we're here to resolve issues quickly and fairly.",
-        "url": "https://udyamgov.com/complaint-order.php", 
+        "url": "<?php echo $baseUrl; ?>complaint-order.php", 
         "potentialAction": {
         "@type": "Action",
-        "name": "MSME/Udyam/Udyog Aadhaar - udyamgov.com Private Consultancy",
+        "name": "MSME/Udyam/Udyog Aadhaar - udyamsewa.com Private Consultancy",
         "target": {
             "@type": "EntryPoint",
-            "urlTemplate": "https://udyamgov.com/complaint-order.php"
+            "urlTemplate": "<?php echo $baseUrl; ?>complaint-order.php"
         }
         },
         
@@ -114,12 +115,12 @@
         ],
         "mainEntity": {
         "@type": "Service",
-        "name": "MSME/Udyam Service - udyamgov.com Private Consultancy",
+        "name": "MSME/Udyam Service - udyamsewa.com Private Consultancy",
         "serviceType": "Business Private Consultancy",
         "provider": {
             "@type": "Organization",
             "name": "UdyamGov",
-            "url": "https://udyamgov.com/complaint-order.php"
+            "url": "<?php echo $baseUrl; ?>complaint-order.php"
         },
         "areaServed": {
             "@type": "Country",
@@ -133,7 +134,7 @@
             "name": "India"
             }
         },
-        "additionalType": "https://udyamgov.com/complaint-order.php"
+        "additionalType": "<?php echo $baseUrl; ?>complaint-order.php"
         }
         }
     </script>
@@ -145,13 +146,13 @@
          "@type": "ListItem",
          "position": 1,
          "name": "Udyam Registration",
-         "item": "https://udyamgov.com"
+         "item": "<?php echo rtrim($baseUrl, '/'); ?>"
          },
          {
          "@type": "ListItem",
          "position": 2,
          "name": "Complaint",
-         "item": "https://udyamgov.com/complaint-order.php"
+         "item": "<?php echo $baseUrl; ?>complaint-order.php"
          }]
       }
     </script>

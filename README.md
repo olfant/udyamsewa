@@ -1,4 +1,4 @@
-# udyamgov.com
+# udyamsewa.com
 Udyam Registration is a sort of government registration that includes a recognition e-certificate and a 19-digit unique registration number known as the 'Udyam Registration Certificate' and 'Udyam Registration Number, it is also known as MSME Registration or Udyog aadhar. Udyam Registration's major goal is to streamline the time-consuming and complex process of registering any firm as a Micro, Medium, and Small Enterprise (MSME).
 
 # Layout
@@ -97,7 +97,7 @@ If you have run out of energy or time for your project, put a note at the top of
 + = MSME Registration Website
 + = Author  Sourav Maity
 + = Version 0.99, 01/06/2022
-+ = Link https://udyamgov.com
++ = Link https://udyamsewa.com
 
 
 

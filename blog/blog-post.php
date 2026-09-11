@@ -24,9 +24,9 @@ if ($query->num_rows > 0 ) {
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title><?php echo $q['page_title']; ?></title>
 <meta name="description" content="<?php echo $q['page_meta_description']; ?>">
-<link rel="canonical" href="https://udyamgov.com/blog/<?php echo $page; ?>" />
+<link rel="canonical" href="<?php echo $baseUrl; ?>blog/<?php echo $page; ?>" />
 <meta name="keywords" content="<?php echo $q['page_meta_keywords']; ?>">
-<link rel="icon" href="https://udyamgov.com/assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
+<link rel="icon" href="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
 <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
@@ -35,7 +35,7 @@ if ($query->num_rows > 0 ) {
 <meta name="theme-color" content="#385067">
 <meta property="og:title" content="<?php echo $q['page_title']; ?>" />
 <meta property="og:description" content="<?php echo $q['page_meta_description']; ?>" />
-<meta property="og:url" content="https://udyamgov.com/blog/<?php echo $page; ?>" />
+<meta property="og:url" content="<?php echo $baseUrl; ?>blog/<?php echo $page; ?>" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Udyam Sewa" />
 <meta property="og:locale" content="en_IN">
@@ -44,25 +44,25 @@ if ($query->num_rows > 0 ) {
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="<?php echo $q['page_title']; ?>">
 <meta name="twitter:description" content="<?php echo $q['page_meta_description']; ?>">
-<meta name="twitter:url" content="https://udyamgov.com/blog/<?php echo $page; ?>">
-<meta name="twitter:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png">
+<meta name="twitter:url" content="<?php echo $baseUrl; ?>blog/<?php echo $page; ?>">
+<meta name="twitter:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png">
 <meta name="twitter:image:alt" content="MSME/Udyam Article">
 <meta name="twitter:site" content="@UdyamGov">
 <meta name="twitter:creator" content="@UdyamGov">
-<meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
+<meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "<?php echo $q['page_title']; ?>",
         "description": "<?php echo $q['page_meta_description']; ?>",
-        "url": "https://udyamgov.com/blog/<?php echo $page; ?>", 
+        "url": "<?php echo $baseUrl; ?>blog/<?php echo $page; ?>", 
         "potentialAction": {
             "@type": "Action",
             "name": "MSME/Udyam/Udyog Blog",
             "target": {
             "@type": "EntryPoint",
-            "urlTemplate": "https://udyamgov.com/blog/<?php echo $page; ?>"
+            "urlTemplate": "<?php echo $baseUrl; ?>blog/<?php echo $page; ?>"
             }
         },      
         "sameAs": [
@@ -78,7 +78,7 @@ if ($query->num_rows > 0 ) {
             "provider": {
             "@type": "Organization",
             "name": "UdyamGov",
-            "url": "https://udyamgov.com/blog/<?php echo $page; ?>"
+            "url": "<?php echo $baseUrl; ?>blog/<?php echo $page; ?>"
             },
             "areaServed": {
             "@type": "Country",
@@ -92,7 +92,7 @@ if ($query->num_rows > 0 ) {
             "name": "India"
             }
             },
-            "additionalType": "https://udyamgov.com/blog/<?php echo $page; ?>"
+            "additionalType": "<?php echo $baseUrl; ?>blog/<?php echo $page; ?>"
         }
     }
 </script>
@@ -104,19 +104,19 @@ if ($query->num_rows > 0 ) {
          "@type": "ListItem",
          "position": 1,
          "name": "Udyam Registration",
-         "item": "https://udyamgov.com"
+         "item": "<?php echo rtrim($baseUrl, '/'); ?>"
          },
          {
          "@type": "ListItem",
          "position": 2,
          "name": "Blogs",
-         "item": "https://udyamgov.com/blog/"
+         "item": "<?php echo $baseUrl; ?>blog/"
          },
          {
          "@type": "ListItem",
          "position": 3,
          "name": " <?php echo $q['image_alt']; ?> ",
-         "item": "https://udyamgov.com/blog/<?php echo $page; ?>"
+         "item": "<?php echo $baseUrl; ?>blog/<?php echo $page; ?>"
          }]
       }
 </script>
@@ -132,7 +132,7 @@ if ($query->num_rows > 0 ) {
       "author": [{
           "@type": "Organization",
           "name": "UdyamGov",
-          "url": "https://udyamgov.com"
+          "url": "<?php echo rtrim($baseUrl, '/'); ?>"
         }]
     }
 </script>
@@ -149,7 +149,7 @@ if ($query->num_rows > 0 ) {
         "/html/body"
         ]
       },
-     "url": "https://udyamgov.com/blog/<?php echo $page; ?>"
+     "url": "<?php echo $baseUrl; ?>blog/<?php echo $page; ?>"
      }
 </script>
 <style>

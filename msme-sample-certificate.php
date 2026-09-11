@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +12,7 @@
     aadhar udyog registration, udyam certificate registration, udyog aadhar certificate, msme certificate registration, 
     msme online registration, aadhar udyam, udyam portal, udyog aadhar update, udyog aadhaar, msme udyam, msme udyog aadhar, 
     udyog aadhar registration online, apply for msme certificate, msme new registration, udyam online registration">
-    <link rel="canonical" href="https://udyamgov.com/msme-sample-certificate.php" />
+    <link rel="canonical" href="<?php echo $baseUrl; ?>msme-sample-certificate.php" />
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -23,8 +24,8 @@
     <meta name="theme-color" content="#385067">
     <meta property="og:title" content="Udyam / MSME Sample Certificate - Download PDF">
     <meta property="og:description" content="See exactly what your Udyam Registration Certificate will look like — view or download a real sample before you apply.">
-    <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
-    <meta property="og:url" content="https://udyamgov.com/msme-sample-certificate.php">
+    <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
+    <meta property="og:url" content="<?php echo $baseUrl; ?>msme-sample-certificate.php">
     <meta property="og:type" content="website">
     <style>
         .steps {
@@ -134,20 +135,19 @@
             font-weight: bold;
         }
     </style>
-
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "Udyam / MSME Sample Certificate - Download PDF",
             "description": "See exactly what your Udyam Registration Certificate will look like — view or download a real sample before you apply.",
-            "url": "https://udyamgov.com/msme-sample-certificate.php", 
+            "url": "<?php echo $baseUrl; ?>msme-sample-certificate.php", 
             "potentialAction": {
                 "@type": "Action",
-                "name": "MSME/Udyam/Udyog Aadhaar - udyamgov.com Private Consultancy",
+                "name": "MSME/Udyam/Udyog Aadhaar - udyamsewa.com Private Consultancy",
                 "target": {
                     "@type": "EntryPoint",
-                    "urlTemplate": "https://udyamgov.com/msme-sample-certificate.php"
+                    "urlTemplate": "<?php echo $baseUrl; ?>msme-sample-certificate.php"
                 }
             },
             "sameAs": [
@@ -157,12 +157,12 @@
             ],
             "mainEntity": {
                 "@type": "Service",
-                "name": "MSME / Udyam Service - udyamgov.com Private Consultancy",
+                "name": "MSME / Udyam Service - udyamsewa.com Private Consultancy",
                 "serviceType": "Business Private Consultancy",
                 "provider": {
                     "@type": "Organization",
                     "name": "UdyamGov",
-                    "url": "https://udyamgov.com/msme-sample-certificate.php"
+                    "url": "<?php echo $baseUrl; ?>msme-sample-certificate.php"
                 },
                 "areaServed": {
                     "@type": "Country",
@@ -176,7 +176,7 @@
                         "name": "India"
                     }
                 },
-                "additionalType": "https://udyamgov.com/msme-sample-certificate.php"
+                "additionalType": "<?php echo $baseUrl; ?>msme-sample-certificate.php"
             }
         }
     </script>
@@ -188,13 +188,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Udyam Registration Services",
-                "item": "https://udyamgov.com"
+                "item": "<?php echo rtrim($baseUrl, '/'); ?>"
             },
             {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Udyam Sample Certificate",
-                "item": "https://udyamgov.com/msme-sample-certificate.php"
+                "item": "<?php echo $baseUrl; ?>msme-sample-certificate.php"
             }]
         }
     </script>
@@ -202,7 +202,7 @@
         {
             "@context": "https://schema.org/",
             "@type": "ImageObject",
-            "contentUrl": "https://udyamgov.com/assets/image/msme-udyam-registration-sample-certificate.jpg",
+            "contentUrl": "<?php echo $baseUrl; ?>assets/image/msme-udyam-registration-sample-certificate.jpg",
             "creditText": "Udyam Certificate",
             "license": "https://udyamregistration.gov.in/", 
             "acquireLicensePage": "https://udyamregistration.gov.in/",
@@ -213,7 +213,6 @@
             "copyrightNotice": "Udyam Registration"
         }
     </script>
-
 </head>
 <body>
 <?php include_once('components/header.php') ?>

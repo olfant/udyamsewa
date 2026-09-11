@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <html lang="en">
 
 <head>
@@ -7,7 +8,7 @@
    <title>OTP Submitted | Register Udyam</title>
    <meta name="description" content="Your OTP has been successfully submitted">
    <meta name="keywords" content="OTP Submitted" />
-   <link rel="canonical" href="https://udyamgov.com/otp-from-submited.php" />
+   <link rel="canonical" href="<?php echo $baseUrl; ?>otp-from-submited.php" />
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -27,9 +28,9 @@
    <meta name="theme-color" content="#385067">
    <meta property="og:title" content="OTP Submitted | Register Udyam" />
    <meta property="og:description" content="Your OTP has been successfully submitted" />
-   <meta property="og:url" content="https://udyamgov.com/otp-from-submited.php" />
+   <meta property="og:url" content="<?php echo $baseUrl; ?>otp-from-submited.php" />
    <meta property="og:type" content="website" />
-   <meta property="og:image" content="https://udyamgov.com/assets/img/msme-logo.png" />
+   <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/msme-logo.png" />
    <script type="application/ld+json">
       {
          "@context": "https://schema.org",
@@ -37,13 +38,13 @@
          "name": OTP Submitted | Register Udyam ",
          "description": "Your OTP has been successfully submitted",
          url ": "
-         https: //udyamgov.com/otp-from-submited.php", 
+         https: //udyamsewa.com/otp-from-submited.php", 
             "potentialAction": {
                "@type": "Action",
                "name": "MSME/Udyam/Udyog Aadhaar - OTP Submitted",
                "target": {
                   "@type": "EntryPoint",
-                  "urlTemplate": "https://udyamgov.com/otp-from-submited.php"
+                  "urlTemplate": "<?php echo $baseUrl; ?>otp-from-submited.php"
                }
             },
 
@@ -60,7 +61,7 @@
             "provider": {
                "@type": "Organization",
                "name": "UdyamGov",
-               "url": "https://udyamgov.com/otp-from-submited.php"
+               "url": "<?php echo $baseUrl; ?>otp-from-submited.php"
             },
             "areaServed": {
                "@type": "Country",
@@ -74,7 +75,7 @@
                   "name": "India"
                }
             },
-            "additionalType": "https://udyamgov.com/otp-from-submited.php"
+            "additionalType": "<?php echo $baseUrl; ?>otp-from-submited.php"
          }
       }
    </script>

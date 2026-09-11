@@ -1,7 +1,8 @@
+<?php require_once __DIR__ . '/../config.php'; ?>
 <?php
 
-$current_link   = 'https://udyamgov.com/';
-$mail_host      = 'udyamgov.com';
+$current_link   = '<?php echo $baseUrl; ?>';
+$mail_host      = 'udyamsewa.com';
 $mail_username  = 'care@udyamsewa.com';
 $mail_password  = 'skill@0Rs';
 $mail_name      = 'MSME Registration';

@@ -6,7 +6,7 @@ use Olfant\CrmOlfantSdk\Database\Connection;
 require 'vendor/autoload.php';
 
 $web = $webNameUpperCase;
-$web = "UDYAMGOV.COM";
+$web = "UDYAMSEWA.COM";
 $crmConn = new Connection();
 // to crm db
 $connect = $crmConn->connection;
@@ -26,7 +26,7 @@ if ($result->num_rows > 0) {
 if($_SERVER['HTTP_HOST'] != 'localhost')
 {
 
-  $payment_link = 'http://udyamgov.com/late-pay.php?id='.$client_id.'&table=msme_form';
+  $payment_link = 'http://udyamsewa.com/late-pay.php?id='.$client_id.'&table=msme_form';
       
   $invoiceBase = 'https://crm.olfant.com/api/fetch-invoice.php?id='.$client_id.'&web='.$web.'&limit=1&download=true'; 
 } else {

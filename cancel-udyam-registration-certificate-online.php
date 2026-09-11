@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -7,7 +8,7 @@
       <title>Cancellation Udyam Registration Online - Cancel Udyam</title>
       <meta name="description" content="Cancel your Udyam registration with our hassle-free process, Just submit the online application on our portal with necessary documents.">
       <meta name="keywords" content="Cancellation Udyam Registration Online, Cancel Udyam Registration, Udyam Certificate Cancellation, Online Cancel MSME Registration, Udyam Registration Termination, Cancel Udyam Certificate Online, How to Cancel Udyam Registration, MSME Udyam Cancellation Process, Cancel Udyam Registration Portal, Terminate Udyam Certificate">
-      <link rel="canonical" href="https://udyamgov.com/cancel-udyam-registration-certificate-online.php" />
+      <link rel="canonical" href="<?php echo $baseUrl; ?>cancel-udyam-registration-certificate-online.php" />
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
       <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
       <link rel="stylesheet" href="/assets/css/main.css">
@@ -18,8 +19,8 @@
 <meta name="theme-color" content="#385067">
       <meta property="og:title" content="Cancellation Udyam Registration Online - Cancel Udyam">
         <meta property="og:description" content="Cancel your Udyam registration with our hassle-free process, Just submit the online application on our portal with necessary documents.">
-         <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-udyam-registration.png" />
-         <meta property="og:url" content="https://udyamgov.com/cancel-udyam-registration-certificate-online.php">
+         <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-udyam-registration.png" />
+         <meta property="og:url" content="<?php echo $baseUrl; ?>cancel-udyam-registration-certificate-online.php">
          <meta property="og:type" content="website">
         <script type="application/ld+json">
             {
@@ -27,11 +28,11 @@
             "@type": "WebPage",
             "name": "Cancellation Udyam Registration Online - Cancel Udyam",
             "description": "Cancel your Udyam registration with our hassle-free process, Just submit the online application on our portal with necessary documents.",
-            "url": "https://udyamgov.com/cancel-udyam-registration-certificate-online.php",
+            "url": "<?php echo $baseUrl; ?>cancel-udyam-registration-certificate-online.php",
             "potentialAction": {
                "@type": "Action",
                "name": "MSME/Udyam Cancellation",
-               "target": "https://udyamgov.com/cancel-udyam-registration-certificate-online.php"
+               "target": "<?php echo $baseUrl; ?>cancel-udyam-registration-certificate-online.php"
             },
             "about": {
                "@type": "Service",
@@ -39,7 +40,7 @@
                "provider": {
                   "@type": "Organization",
                   "name": "UdyamGov",
-                  "url": "https://udyamgov.com/"
+                  "url": "<?php echo $baseUrl; ?>"
                },
                "audience": {
                   "@type": "Audience",
@@ -51,7 +52,7 @@
                },
                "offers": {
                   "@type": "Offer",
-                  "url": "https://udyamgov.com/cancel-udyam-registration-certificate-online.php",
+                  "url": "<?php echo $baseUrl; ?>cancel-udyam-registration-certificate-online.php",
                   "priceCurrency": "INR",
                   "eligibleRegion": {
                   "@type": "Country",
@@ -70,13 +71,13 @@
          "@type": "ListItem",
          "position": 1,
          "name": "Udyam Registration Portal",
-         "item": "https://udyamgov.com/"
+         "item": "<?php echo $baseUrl; ?>"
          },
          {
          "@type": "ListItem",
          "position": 2,
          "name": "Cancel Udyam Registration",
-         "item": "https://udyamgov.com/cancel-udyam-registration-certificate-online.php"
+         "item": "<?php echo $baseUrl; ?>cancel-udyam-registration-certificate-online.php"
          }]
       }
       </script>

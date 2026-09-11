@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../config.php'; ?>
 <?php
 error_reporting(0); // production
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
@@ -304,7 +305,7 @@ $_SESSION['orderId'] = $orderId;
                         Select the required service from the available options.
                     </p>
 
-                    <button class="home-button" onclick="window.location.href='https://udyamgov.com/'">Go to Home</button>
+                    <button class="home-button" onclick="window.location.href='<?php echo $baseUrl; ?>'">Go to Home</button>
                 </div>
             <?php } ?>
         </div>

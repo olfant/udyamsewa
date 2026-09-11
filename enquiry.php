@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
    <title>Enquiry - Udyam Sewa  | MSME queries</title>
    <meta name="description" content="Have a query about Udyam Registration? Submit your enquiry and get accurate answers from our team before you proceed.">
    <meta name="keywords" content="Enquiry Page, Submit Enquiry UdyamGov, Udyam Registration Queries, MSME Assistance, Udyam Certificate Help, UdyamGov Support, Ask Questions About Udyam, Udyam Enquiry Online, Business Registration Support, Contact for Udyam Help">
-   <link rel="canonical" href="https://udyamgov.com/enquiry.php" />
+   <link rel="canonical" href="<?php echo $baseUrl; ?>enquiry.php" />
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
    <script src="/assets/js/jquery.min.js"></script>
    <script src="/assets/js/bootstrap.min.js"></script>
@@ -18,8 +19,8 @@
    <meta name="theme-color" content="#385067">
    <meta property="og:title" content="Enquiry - Udyam Sewa  | MSME queries">
    <meta property="og:description" content="Have a query about Udyam Registration? Submit your enquiry and get accurate answers from our team before you proceed.">
-   <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
-   <meta property="og:url" content="https://udyamgov.com/enquiry.php">
+   <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
+   <meta property="og:url" content="<?php echo $baseUrl; ?>enquiry.php">
    <meta property="og:type" content="website">
 
    <script type="application/ld+json">
@@ -28,13 +29,13 @@
       "@type": "WebPage",
       "name": "Enquiry - Udyam Sewa  | MSME queries",
       "description": "Have a query about Udyam Registration? Submit your enquiry and get accurate answers from our team before you proceed.",
-      "url": "https://udyamgov.com/enquiry.php", 
+      "url": "<?php echo $baseUrl; ?>enquiry.php", 
       "potentialAction": {
          "@type": "Action",
-         "name": "MSME/Udyam/Udyog Aadhaar - udyamgov.com Private Consultancy",
+         "name": "MSME/Udyam/Udyog Aadhaar - udyamsewa.com Private Consultancy",
          "target": {
             "@type": "EntryPoint",
-            "urlTemplate": "https://udyamgov.com/enquiry.php"
+            "urlTemplate": "<?php echo $baseUrl; ?>enquiry.php"
          }
       },
                
@@ -45,12 +46,12 @@
       ],
       "mainEntity": {
          "@type": "Service",
-         "name": "MSME/Udyam Service - udyamgov.com Private Consultancy",
+         "name": "MSME/Udyam Service - udyamsewa.com Private Consultancy",
          "serviceType": "Business Private Consultancy",
          "provider": {
             "@type": "Organization",
             "name": "UdyamGov",
-            "url": "https://udyamgov.com/enquiry.php"
+            "url": "<?php echo $baseUrl; ?>enquiry.php"
          },
          "areaServed": {
             "@type": "Country",
@@ -64,7 +65,7 @@
             "name": "India"
             }
          },
-         "additionalType": "https://udyamgov.com/enquiry.php"
+         "additionalType": "<?php echo $baseUrl; ?>enquiry.php"
       }
       }
    </script>
@@ -76,13 +77,13 @@
          "@type": "ListItem",
          "position": 1,
          "name": "Udyam Registration Services",
-         "item": "https://udyamgov.com/"
+         "item": "<?php echo $baseUrl; ?>"
          },
          {
          "@type": "ListItem",
          "position": 2,
          "name": "Enquiry",
-         "item": "https://udyamgov.com/enquiry.php"
+         "item": "<?php echo $baseUrl; ?>enquiry.php"
          }]
       }
    </script>

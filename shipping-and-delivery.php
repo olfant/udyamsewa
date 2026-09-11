@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +9,7 @@
    <title>Shipping & Delivery Policy - MSME Portal | Udyam Sewa</title>
    <meta name="description" content="Your Udyam Certificate is delivered electronically to your registered email. Need help? Our support team is here for you.">
    <meta name="keywords" content="Shipping Policy, UdyamGov Shipping Policy, Delivery Policy, Order Processing, Shipping Terms and Conditions, Shipping Guidelines, Product Delivery Information, Order Shipping Details, Delivery Timeframe, Shipping and Handling Policy">
-   <link rel="canonical" href="https://udyamgov.com/shipping-and-delivery.php" />
+   <link rel="canonical" href="<?php echo $baseUrl; ?>shipping-and-delivery.php" />
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
    <link rel="stylesheet" href="/assets/css/main.css">
@@ -19,8 +20,8 @@
    <meta name="theme-color" content="#385067">
    <meta property="og:title" content="Shipping & Delivery Policy - MSME Portal | Udyam Sewa">
    <meta property="og:description" content="Your Udyam Certificate is delivered electronically to your registered email. Need help? Our support team is here for you.">
-   <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
-   <meta property="og:url" content="https://udyamgov.com/shipping-and-delivery.php">
+   <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
+   <meta property="og:url" content="<?php echo $baseUrl; ?>shipping-and-delivery.php">
    <meta property="og:type" content="website">
 
    <script type="application/ld+json">
@@ -29,13 +30,13 @@
       "@type": "WebPage",
       "name": "Shipping & Delivery Policy - MSME Portal | Udyam Sewa",
       "description": "Your Udyam Certificate is delivered electronically to your registered email. Need help? Our support team is here for you.",
-      "url": "https://udyamgov.com/shipping-and-delivery.php", 
+      "url": "<?php echo $baseUrl; ?>shipping-and-delivery.php", 
       "potentialAction": {
          "@type": "Action",
-         "name": "MSME/Udyam/Udyog Aadhaar - udyamgov.com Private Consultancy",
+         "name": "MSME/Udyam/Udyog Aadhaar - udyamsewa.com Private Consultancy",
          "target": {
             "@type": "EntryPoint",
-            "urlTemplate": "https://udyamgov.com/shipping-and-delivery.php"
+            "urlTemplate": "<?php echo $baseUrl; ?>shipping-and-delivery.php"
          }
       },
       
@@ -46,12 +47,12 @@
       ],
       "mainEntity": {
          "@type": "Service",
-         "name": "MSME/Udyam Service - udyamgov.com Private Consultancy",
+         "name": "MSME/Udyam Service - udyamsewa.com Private Consultancy",
          "serviceType": "Business Private Consultancy",
          "provider": {
             "@type": "Organization",
             "name": "UdyamGov",
-            "url": "https://udyamgov.com/shipping-and-delivery.php"
+            "url": "<?php echo $baseUrl; ?>shipping-and-delivery.php"
          },
          "areaServed": {
             "@type": "Country",
@@ -65,7 +66,7 @@
             "name": "India"
             }
          },
-         "additionalType": "https://udyamgov.com/shipping-and-delivery.php"
+         "additionalType": "<?php echo $baseUrl; ?>shipping-and-delivery.php"
       }
       }
    </script>
@@ -77,7 +78,7 @@
          "@type": "ListItem",
          "position": 1,
          "name": "Shipping & Delivery",
-         "item": "https://udyamgov.com/shipping-and-delivery.php"
+         "item": "<?php echo $baseUrl; ?>shipping-and-delivery.php"
          }]
       }
     </script>
@@ -153,7 +154,7 @@
   <div class="container content-page-wrapper mb-5">
     <div class="content-page-header">
         <h1>Shipping & Delivery Policy</h1>
-        <p class="subtitle">Welcome to UdyamGov.com MSME Registration Services. Here is the solution to your queries related to shipping and delivery.</p>
+        <p class="subtitle">Welcome to udyamsewa.com MSME Registration Services. Here is the solution to your queries related to shipping and delivery.</p>
     </div>
     <h2>Delivery Methods and Associated Costs</h2>
     <p>

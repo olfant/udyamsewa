@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>How to Apply for Udyam Registration for Service Sector</title>
 <meta name="description" content="Apply for Udyam Registration for your service sector business online with ease. Learn the step-by-step process, required documents, eligibility criteria, and benefits for MSMEs in India.">
-<link rel="canonical" href="https://udyamgov.com/blog/how-to-apply-for-udyam-registration-for-service-sector" />
+<link rel="canonical" href="<?php echo $baseUrl; ?>blog/how-to-apply-for-udyam-registration-for-service-sector" />
 <meta name="keywords" content="udyam registration, msme registration, udyam certificate, service sector udyam, udyog aadhar">
-<link rel="icon" href="https://udyamgov.com/assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
+<link rel="icon" href="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
 <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
@@ -24,17 +25,17 @@
 
 <meta property="og:title" content="How to Apply for Udyam Registration for Service Sector">
 <meta property="og:site_name" content="Udyam-Gov">
-<meta property="og:url" content="https://udyamgov.com/blog/udyam-registration-benefit-retail-startup">
+<meta property="og:url" content="<?php echo $baseUrl; ?>blog/udyam-registration-benefit-retail-startup">
 <meta property="og:description" content="Apply for Udyam Registration for your service sector business online with ease. Learn the step-by-step process, required documents, eligibility criteria, and benefits for MSMEs in India.">
 <meta property="og:type" content="business">
-<meta property="og:image" content="https://udyamgov.com/assets/image/how-to-apply-for-udyam-registration-for-service-sector.png">
+<meta property="og:image" content="<?php echo $baseUrl; ?>assets/image/how-to-apply-for-udyam-registration-for-service-sector.png">
 
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@UdyamGov">
 <meta name="twitter:title" content="How to Apply for Udyam Registration for Service Sector">
 <meta name="twitter:description" content="Apply for Udyam Registration for your service sector business online with ease. Learn the step-by-step process, required documents, eligibility criteria, and benefits for MSMEs in India.">
-<meta name="twitter:image" content="https://udyamgov.com/assets/image/how-to-apply-for-udyam-registration-for-service-sector.png">
+<meta name="twitter:image" content="<?php echo $baseUrl; ?>assets/image/how-to-apply-for-udyam-registration-for-service-sector.png">
 
 
 <!-- Breadcrumb Schema -->
@@ -48,19 +49,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://udyamgov.com/"
+      "item": "<?php echo $baseUrl; ?>"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://udyamgov.com/blog/"
+      "item": "<?php echo $baseUrl; ?>blog/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "How to Apply for Udyam Registration for Service Sector",
-      "item": "https://udyamgov.com/blog/how-to-apply-for-udyam-registration-for-service-sector"
+      "item": "<?php echo $baseUrl; ?>blog/how-to-apply-for-udyam-registration-for-service-sector"
     }
   ]
 }
@@ -73,9 +74,9 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "How to Apply for Udyam Registration for Service Sector",
-  "url": "https://udyamgov.com/blog/how-to-apply-for-udyam-registration-for-service-sector",
+  "url": "<?php echo $baseUrl; ?>blog/how-to-apply-for-udyam-registration-for-service-sector",
   "description": "Apply for Udyam Registration for your service sector business online with ease. Learn the step-by-step process, required documents, eligibility criteria, and benefits for MSMEs in India.",
-  "image": "https://udyamgov.com/assets/image/how-to-apply-for-udyam-registration-for-service-sector.png"
+  "image": "<?php echo $baseUrl; ?>assets/image/how-to-apply-for-udyam-registration-for-service-sector.png"
 }
 </script>
 
@@ -97,7 +98,7 @@
     "name": "Udyam Sewa",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://udyamgov.com/assets/image/register-udyam-logo.png"
+      "url": "<?php echo $baseUrl; ?>assets/image/register-udyam-logo.png"
     }
   },
   "datePublished": "2026-05-19",
@@ -131,7 +132,7 @@
     <!-- Intro card -->
     <div class="blog-card">
       <p>In India, a service-based business has many opportunities, but for that it also requires a valid recognition and follow the 
-        legal compliance. For small and medium enterprises who provide services, <a href="https://udyamgov.com/"><b>Udyam registration</b></a> 
+        legal compliance. For small and medium enterprises who provide services, <a href="<?php echo $baseUrl; ?>"><b>Udyam registration</b></a> 
         is the most important step.After registering their business by Udyam/MSME registration helps businesses to get benefits of various 
         government schemes, financial support, tax related benefits, and easier approval for loan application.
       </p>
@@ -169,7 +170,7 @@
     <div class="blog-card" id="what-is-udyam">
       <h2>What is Udyam Registration?</h2>
       <p>Udyam Registration is the formal process of registering Micro, Small and Medium Enterprises (MSMEs) in a 
-         <a href="https://udyamgov.com/"><strong>Udyam Registration portal</strong></a> of the government of India. 
+         <a href="<?php echo $baseUrl; ?>"><strong>Udyam Registration portal</strong></a> of the government of India. 
         It is a completely online process that was launched in July 2020 by replacing the older Udyog Aadhar system. 
         Businesses whether it is related to manufacturing or service can apply for Udyam registration that becomes the 
         proof of MSME recognition. As it is completely online so that it is easy to verify using PAN and Aadhaar details.
@@ -186,7 +187,7 @@
           <div class="step-num">1</div>
           <div class="step-body">
             <h3>Step 1: Visit the Udyam Registration Portal.</h3>
-            <p>Applicants need to visit the authentic <strong>Udyam portal</strong> i.e., <a href="https://udyamgov.com" target="_blank" rel="noopener">https://udyamgov.com</a>.</p>
+            <p>Applicants need to visit the authentic <strong>Udyam portal</strong> i.e., <a href="<?php echo rtrim($baseUrl, '/'); ?>" target="_blank" rel="noopener"><?php echo rtrim($baseUrl, '/'); ?></a>.</p>
             <img src="../assets/image/Udyam-procedure1.webp" alt="Udyam Registration Procedure" class="procedure-image">
           </div>
         </li>
@@ -233,7 +234,7 @@
     <div class="blog-card" id="importance">
       <h2>Importance of Udyam Registration for Service Sector Businesses</h2>
       <p>With manufacturing, service based enterprises play an important role to India's economy. From starting from home such as 
-        freelancers to IT consultants. <a href="https://udyamgov.com/"><strong>MSME registration</strong></a> can help businesses 
+        freelancers to IT consultants. <a href="<?php echo $baseUrl; ?>"><strong>MSME registration</strong></a> can help businesses 
         to grow faster with benefits of several government schemes and the financial support.
       </p>
     </div>
@@ -255,7 +256,7 @@
       <p>Many governments also offer various advantages and discounts to MSMEs that also increases the opportunities to grow the service based companies.</p>
 
       <h3>Financial and Tax Benefits</h3>
-      <p>Using <a href="https://udyamgov.com/"><strong>Udyam Certificate</strong></a>, enterprises can get support to obtain licenses, tender approval or bank loans using the state and central schemes.</p>
+      <p>Using <a href="<?php echo $baseUrl; ?>"><strong>Udyam Certificate</strong></a>, enterprises can get support to obtain licenses, tender approval or bank loans using the state and central schemes.</p>
     </div>
 
     <!-- Who Can Apply -->
@@ -379,7 +380,7 @@
       <h2>Conclusion</h2>
       <p>For Service sector businesses, Udyam registration or MSME registration is an important step to get MSME benefits in India as 
         well as to improve business values. It is important whether it is a consultancy or educational institute or any other service 
-        based enterprises, <a href="https://udyamgov.com/"><strong>MSME certificate</strong></a> helps for long-term growth and also 
+        based enterprises, <a href="<?php echo $baseUrl; ?>"><strong>MSME certificate</strong></a> helps for long-term growth and also 
         for financial help.
       </p>
       <p>Now the online process of Udyam registration is much better and reliable as compared to Udyog Aadhar system but still applicants 

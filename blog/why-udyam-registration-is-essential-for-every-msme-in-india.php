@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Why Udyam Registration Is Essential for Every MSME in india</title>
 <meta name="description" content="Udyam Registration is a must for Indian MSMEs seeking growth and support. Discover its benefits, eligibility, and importance for long-term business success.">
-<link rel="canonical" href="https://udyamgov.com/blog/why-udyam-registration-is-essential-for-every-msme-in-india" />
+<link rel="canonical" href="<?php echo $baseUrl; ?>blog/why-udyam-registration-is-essential-for-every-msme-in-india" />
 <meta name="keywords" content="Udyam Registration, MSME benefits, financial benefits, legal advantages, Udyam certificate">
-<link rel="icon" href="https://udyamgov.com/assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
+<link rel="icon" href="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
 <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
@@ -24,17 +25,17 @@
 
 <meta property="og:title" content="Why Udyam Registration Is Essential for MSME">
 <meta property="og:site_name" content="Udyam-Gov">
-<meta property="og:url" content="https://udyamgov.com/blog/why-udyam-registration-essential-msme-business.php">
+<meta property="og:url" content="<?php echo $baseUrl; ?>blog/why-udyam-registration-essential-msme-business.php">
 <meta property="og:description" content="Understand why Udyam Registration is important for Indian MSMEs to get benefits of government schemes, loans, subsidies, tender participation.">
 <meta property="og:type" content="business">
-<meta property="og:image" content="https://udyamgov.com/assets/image/why-udyam-registration-is-essential-for-every-msme-in-india.webp">
+<meta property="og:image" content="<?php echo $baseUrl; ?>assets/image/why-udyam-registration-is-essential-for-every-msme-in-india.webp">
 
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@UdyamGov">
 <meta name="twitter:title" content="Why Udyam Registration Is Essential for MSME">
 <meta name="twitter:description" content="Understand why Udyam Registration is important for Indian MSMEs to get benefits of government schemes, loans, subsidies, tender participation.">
-<meta name="twitter:image" content="https://udyamgov.com/assets/image/why-udyam-registration-is-essential-for-every-msme-in-india.webp">
+<meta name="twitter:image" content="<?php echo $baseUrl; ?>assets/image/why-udyam-registration-is-essential-for-every-msme-in-india.webp">
 
 
 
@@ -49,19 +50,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://udyamgov.com/"
+      "item": "<?php echo $baseUrl; ?>"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://udyamgov.com/blog/"
+      "item": "<?php echo $baseUrl; ?>blog/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Why Udyam Registration Is Essential for MSME",
-      "item": "https://udyamgov.com/blog/why-udyam-registration-essential-msme-business.php"
+      "item": "<?php echo $baseUrl; ?>blog/why-udyam-registration-essential-msme-business.php"
     }
   ]
 }
@@ -77,9 +78,9 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Why Udyam Registration Is Essential for MSME",
-  "url": "https://udyamgov.com/blog/why-udyam-registration-essential-msme-business.php",
+  "url": "<?php echo $baseUrl; ?>blog/why-udyam-registration-essential-msme-business.php",
   "description": "Understand why Udyam Registration is important for Indian MSMEs to get benefits of government schemes, loans, subsidies, tender participation.",
-  "image": "https://udyamgov.com/assets/image/why-udyam-registration-is-essential-for-every-msme-in-india.webp"
+  "image": "<?php echo $baseUrl; ?>assets/image/why-udyam-registration-is-essential-for-every-msme-in-india.webp"
 }
 </script>
 
@@ -92,7 +93,7 @@
   "@type": "BlogPosting",
   "headline": "Why Udyam Registration Is Essential for MSME",
   "description": "Apply for Udyam Registration for your service sector business online with ease. Learn the step-by-step process, required documents, eligibility criteria, and benefits for MSMEs in India.",
-  "image": "https://udyamgov.com/assets/image/why-udyam-registration-is-essential-for-every-msme-in-india.webp",
+  "image": "<?php echo $baseUrl; ?>assets/image/why-udyam-registration-is-essential-for-every-msme-in-india.webp",
   "author": {
     "@type": "Organization",
     "name": "Udyam Sewa"
@@ -102,7 +103,7 @@
     "name": "Udyam Sewa",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://udyamgov.com/assets/image/register-udyam-logo.png"
+      "url": "<?php echo $baseUrl; ?>assets/image/register-udyam-logo.png"
     }
   },
   "datePublished": "2026-05-19",
@@ -158,7 +159,7 @@
     <!-- Intro card -->
     <div class="blog-card" id="intro">
       <p>The major Indian economy is supported by the small and medium sized enterprises or organizations. To support these businesses 
-        in India, the Government of India came up with the concept of <a href="https://udyamgov.com/"><b>Udyam registration</b></a> 
+        in India, the Government of India came up with the concept of <a href="<?php echo $baseUrl; ?>"><b>Udyam registration</b></a> 
         that acts as an official recognition system for micro, small and medium enterprises. <br>
         Udyam or MSME registration has several benefits such as to get financial support or government schemes or legal protection 
         and market growth opportunities with confidence.
@@ -182,7 +183,7 @@
       <h2>Why the Government Introduced Udyam System</h2>
 
       <p>The previous Udyog Aadhar often involved confusion, more paperwork and less integration with government databases. To solve 
-        these problems, the government launched a new registration portal that is easy and fully digital that makes <a href="https://udyamgov.com/">MSME registration</a> easier.
+        these problems, the government launched a new registration portal that is easy and fully digital that makes <a href="<?php echo $baseUrl; ?>">MSME registration</a> easier.
       </p>
       <p>Following are benefits of new system</p>
 
@@ -232,7 +233,7 @@
       <h2>Importance of the Udyam Certificate</h2>
 
       <p>After successful registration under Udyam or MSME, businesses receive an official udyam certificate that includes a unique 
-        registration number and QR code. This <a href="https://udyamgov.com/">Udyam certificate</a> acts as proof of MSME registration.
+        registration number and QR code. This <a href="<?php echo $baseUrl; ?>">Udyam certificate</a> acts as proof of MSME registration.
       </p>
       <h3>Uses of the MSME Certificate</h3>
       <p>Major uses of MSME certificate are follows:</p>
@@ -297,7 +298,7 @@
         schemes and also gives opportunities for business funding and their expansion.
       </p>
       <p>With the online registration process, entrepreneurs or business owners can easily apply online for a udyam certificate with 
-        ease as compared to the old Udyog aadhar system. <a href="https://udyamgov.com/">Online MSME registration</a>
+        ease as compared to the old Udyog aadhar system. <a href="<?php echo $baseUrl; ?>">Online MSME registration</a>
         maintains transparency and is easy to file.
       </p>
       <p>With the continued increase in competition in the Indian marketplace, businesses that register under the MSME get better 

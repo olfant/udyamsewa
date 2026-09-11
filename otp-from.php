@@ -63,8 +63,8 @@ if ((isset($_POST['otp'])) && (isset($_POST['form_id']))) {
   <title>Enter OTP for Verification</title>
   <meta name="description" content="Enter the one-time password (OTP) sent to your mobile number or email to verify your identity and continue.">
   <meta name="keywords" content="OTP Submitted" />
-  <link rel="canonical" href="https://udyamgov.com/otp-from.php" />
-  <link rel="icon" href="https://udyamgov.com/assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
+  <link rel="canonical" href="<?php echo $baseUrl; ?>otp-from.php" />
+  <link rel="icon" href="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -83,9 +83,9 @@ if ((isset($_POST['otp'])) && (isset($_POST['form_id']))) {
   <meta name="theme-color" content="#385067">
   <meta property="og:title" content="Enter OTP for Verification" />
   <meta property="og:description" content="Enter the one-time password (OTP) sent to your mobile number or email to verify your identity and continue." />
-  <meta property="og:url" content="https://udyamgov.com/otp-from.php" />
+  <meta property="og:url" content="<?php echo $baseUrl; ?>otp-from.php" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
+  <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -93,13 +93,13 @@ if ((isset($_POST['otp'])) && (isset($_POST['form_id']))) {
       "name": "Enter OTP for Verification",
       "description": "Enter the one-time password (OTP) sent to your mobile number or email to verify your identity and continue.",
       url ": "
-      https: //udyamgov.com/otp-from.php", 
+      https: //udyamsewa.com/otp-from.php", 
         "potentialAction": {
           "@type": "Action",
           "name": "MSME/Udyam/Udyog Aadhaar - Verification",
           "target": {
             "@type": "EntryPoint",
-            "urlTemplate": "https://udyamgov.com/otp-from.php"
+            "urlTemplate": "<?php echo $baseUrl; ?>otp-from.php"
           }
         },
 
@@ -116,7 +116,7 @@ if ((isset($_POST['otp'])) && (isset($_POST['form_id']))) {
         "provider": {
           "@type": "Organization",
           "name": "UdyamGov",
-          "url": "https://udyamgov.com/otp-from.php"
+          "url": "<?php echo $baseUrl; ?>otp-from.php"
         },
         "areaServed": {
           "@type": "Country",
@@ -130,7 +130,7 @@ if ((isset($_POST['otp'])) && (isset($_POST['form_id']))) {
             "name": "India"
           }
         },
-        "additionalType": "https://udyamgov.com/otp-from.php"
+        "additionalType": "<?php echo $baseUrl; ?>otp-from.php"
       }
     }
   </script>

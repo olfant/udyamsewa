@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +8,7 @@
         <title>Udyam Re registration | Renew Udyog Aadhar to Udyam</title>
         <meta name="description" content="Apply now for Udyam Re-registration. Migrate Udyog Aadhar to Udyam online, renew your MSME certificate & unlock loans, subsidies & compliance status." />
         <meta name="keywords" content="Re-apply for Udyam Registration, Re-register Udyam Online, Renew Udyam Certificate, Reapply MSME Registration, Udyam Re-registration Process, Apply Again for Udyam Registration, Update Udyam Registration, Re-register Udyam Certificate Online, MSME Udyam Re-registration, Online Reapply for Udyam Certificate">
-        <link rel="canonical" href="https://udyamgov.com/udyam-re-registration-certificate-online.php" />
+        <link rel="canonical" href="<?php echo $baseUrl; ?>udyam-re-registration-certificate-online.php" />
         <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16" />
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/css/main.css" />
@@ -18,8 +19,8 @@
         <meta name="theme-color" content="#385067">
         <meta property="og:title" content="Udyam Re registration | Renew Udyog Aadhar to Udyam">
         <meta property="og:description" content="Apply now for Udyam Re-registration. Migrate Udyog Aadhar to Udyam online, renew your MSME certificate & unlock loans, subsidies & compliance status.">
-        <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-udyam-registration.png">
-        <meta property="og:url" content="https://udyamgov.com/udyam-re-registration-certificate-online.php">
+        <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-udyam-registration.png">
+        <meta property="og:url" content="<?php echo $baseUrl; ?>udyam-re-registration-certificate-online.php">
         <meta property="og:type" content="website">
 
         <script type="application/ld+json">
@@ -28,11 +29,11 @@
             "@type": "WebPage",
             "name": "Udyam Re registration | Renew Udyog Aadhar to Udyam ",
             "description": "Apply now for Udyam Re-registration. Migrate Udyog Aadhar to Udyam online, renew your MSME certificate & unlock loans, subsidies & compliance status.",
-            "url": "https://udyamgov.com/udyam-re-registration-certificate-online.php",
+            "url": "<?php echo $baseUrl; ?>udyam-re-registration-certificate-online.php",
             "potentialAction": {
             "@type": "Action",
             "name": "Re-Register MSME/Udyam Certificate", 
-            "target": "https://udyamgov.com/udyam-re-registration-certificate-online.php"
+            "target": "<?php echo $baseUrl; ?>udyam-re-registration-certificate-online.php"
             },
             "about": {
             "@type": "Service",
@@ -40,7 +41,7 @@
             "provider": {
                 "@type": "Organization",
                 "name": "UdyamGov",
-                "url": "https://udyamgov.com"
+                "url": "<?php echo rtrim($baseUrl, '/'); ?>"
             },
             "audience": {
                 "@type": "Audience",
@@ -52,7 +53,7 @@
             },
             "offers": {
                 "@type": "Offer",
-                "url": "https://udyamgov.com/udyam-re-registration-certificate-online.php",
+                "url": "<?php echo $baseUrl; ?>udyam-re-registration-certificate-online.php",
                 "priceCurrency": "INR",
                 "eligibleRegion": {
                 "@type": "Country",
@@ -71,13 +72,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Udyam Registration Services",
-                "item": "https://udyamgov.com"
+                "item": "<?php echo rtrim($baseUrl, '/'); ?>"
                 },
                 {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Re Register Udyam Certificate",
-                "item": "https://udyamgov.com/udyam-re-registration-certificate-online.php"
+                "item": "<?php echo $baseUrl; ?>udyam-re-registration-certificate-online.php"
                 }]
             }
         </script>

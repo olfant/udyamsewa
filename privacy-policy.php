@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <?php
 // Check if the requested file exists
 if (!file_exists($_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI']) && empty($incBlogHeader)) {
@@ -18,8 +19,8 @@ if (!file_exists($_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI']) && empty($
   <title>Privacy Policy | Udyam Sewa - MSME Registration</title>
   <meta name="description" content="Your privacy matters. We use your personal data only to provide and improve our services. Read our full privacy practices here.">
   <meta name="keywords" content="Privacy Policy, UdyamGov Privacy Policy, Data Protection Policy, User Privacy, Information Security, Data Usage Policy, Website Privacy, Personal Data Policy, User Data Confidentiality, UdyamGov Data Privacy">
-  <link rel="canonical" href="https://udyamgov.com/privacy-policy.php" />
-  <link rel="icon" href="https://udyamgov.com/assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
+  <link rel="canonical" href="<?php echo $baseUrl; ?>privacy-policy.php" />
+  <link rel="icon" href="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
   <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/css/main.css">
@@ -30,8 +31,8 @@ if (!file_exists($_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI']) && empty($
   <meta name="theme-color" content="#385067">
   <meta property="og:title" content="Privacy Policy | Udyam Sewa - MSME Registration">
   <meta property="og:description" content="Your privacy matters. We use your personal data only to provide and improve our services. Read our full privacy practices here. ">
-  <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.pngg" />
-  <meta property="og:url" content="https://udyamgov.com/privacy-policy.php">
+  <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.pngg" />
+  <meta property="og:url" content="<?php echo $baseUrl; ?>privacy-policy.php">
   <meta property="og:type" content="website">
   <style>
         .content-page-wrapper {
@@ -102,13 +103,13 @@ if (!file_exists($_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI']) && empty($
     "@type": "WebPage",
     "name": "Privacy Policy | Udyam Sewa - MSME Registration",
     "description": "Your privacy matters. We use your personal data only to provide and improve our services. Read our full privacy practices here.",
-    "url": "https://udyamgov.com/privacy-policy.php", 
+    "url": "<?php echo $baseUrl; ?>privacy-policy.php", 
     "potentialAction": {
       "@type": "Action",
-      "name": "MSME / Udyam Service - udyamgov.com Private Consultancy",
+      "name": "MSME / Udyam Service - udyamsewa.com Private Consultancy",
       "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://udyamgov.com/privacy-policy.php"
+          "urlTemplate": "<?php echo $baseUrl; ?>privacy-policy.php"
       }
     },
     
@@ -119,12 +120,12 @@ if (!file_exists($_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI']) && empty($
     ],
     "mainEntity": {
       "@type": "Service",
-      "name": "MSME / Udyam Service - udyamgov.com Private Consultancy",
+      "name": "MSME / Udyam Service - udyamsewa.com Private Consultancy",
       "serviceType": "Business Private Consultancy",
       "provider": {
           "@type": "Organization",
           "name": "UdyamGov",
-          "url": "https://udyamgov.com/privacy-policy.php"
+          "url": "<?php echo $baseUrl; ?>privacy-policy.php"
       },
       "areaServed": {
           "@type": "Country",
@@ -138,7 +139,7 @@ if (!file_exists($_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI']) && empty($
           "name": "India"
           }
       },
-      "additionalType": "https://udyamgov.com/privacy-policy.php"
+      "additionalType": "<?php echo $baseUrl; ?>privacy-policy.php"
     }
     }
   </script>
@@ -150,7 +151,7 @@ if (!file_exists($_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI']) && empty($
         "@type": "ListItem",
         "position": 1,
         "name": "Privacy Policy",
-        "item": "https://udyamgov.com/privacy-policy.php"
+        "item": "<?php echo $baseUrl; ?>privacy-policy.php"
         }]
     }
   </script>
@@ -164,7 +165,7 @@ if (!file_exists($_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI']) && empty($
         <h1>Privacy Policy</h1>
         <p class="subtitle">Last updated: June 06, 2025</p>
     </div>
-    <p>Welcome to the UdyamGov.com website. Here is our privacy policy, which applies to our website and the services we provide.</p>
+    <p>Welcome to the udyamsewa.com website. Here is our privacy policy, which applies to our website and the services we provide.</p>
     <p>Through this privacy policy, we want to tell you how we connect, use, and disclose your information when you use our service, as well as mention your privacy rights and legal protections. We collect and use your data so that we can improve our services.</p>
     <p>We may combine and use your information as per the guidelines outlined in our privacy policy when you use our services.</p>
     <h2>1. Types of Data Collected</h2>
@@ -223,13 +224,13 @@ if (!file_exists($_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI']) && empty($
     <p> The Service provided by us may contain links to other websites that are not operated by us. You will be directed to a third party website if you click on a link. We encourage you to check the privacy policy of any third party website before visiting it. We have no control over and are not responsible for third party websites or their services.</p>
 
     <h2>10. Changes to This Privacy Policy</h2>
-    <p>UdyamGov.com changes its Privacy Policy frequently, but we will notify you of any changes to our Privacy Policy. We will publish an up-to-date Privacy Policy on our Website. We will update the “Last Updated” date at the top of this Privacy Policy and provide you with a prominent notice by email or on our Service when the change becomes effective. You are advised to review this Privacy Policy regularly for any changes. Changes to the Privacy Policy take effect when posted on this page.  </p>
+    <p>udyamsewa.com changes its Privacy Policy frequently, but we will notify you of any changes to our Privacy Policy. We will publish an up-to-date Privacy Policy on our Website. We will update the “Last Updated” date at the top of this Privacy Policy and provide you with a prominent notice by email or on our Service when the change becomes effective. You are advised to review this Privacy Policy regularly for any changes. Changes to the Privacy Policy take effect when posted on this page.  </p>
 
     <h2>11. Contact Us</h2>
     <p>If you have any questions or concerns regarding this Privacy Policy, you can contact us, and we will address all your queries:</p>
     <ul>
       <li>By email: <a href="mailto:care@udyamsewa.com"> care@udyamsewa.com</a></li>
-      <li>By visiting this page on our website: <a href="https://udyamgov.com/enquiry.php">Enquiry Page</a></li>
+      <li>By visiting this page on our website: <a href="<?php echo $baseUrl; ?>enquiry.php">Enquiry Page</a></li>
     </ul>
     <h2>12. Use of Cookies</h2>
     <p>We use cookies to improve our Services. When you use our Service, the web server places small text files called cookies on your device. We use the following cookies:</p>

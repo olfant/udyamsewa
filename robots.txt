@@ -81,4 +81,4 @@ Disallow: /assets/js/*.js
 
 
 
-Sitemap: https://udyamgov.com/sitemap.xml
+Sitemap: https://udyamsewa.com/sitemap.xml

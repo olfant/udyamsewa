@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <title>NIC Code List for your Udyam Registration - PDF</title>
     <meta name="description" content="Explore the complete NIC Code list for Udyam Registration and learn about NIC Code and its importance in MSME/Udyam Registration." />
     <meta name="keywords" content="NIC Code, National Industrial Classification Code, NIC Code for MSME, NIC Code for Udyam Registration, NIC Code List, NIC Code Finder, NIC Code for Business, Industry Classification Code, Udyam NIC Code Search, MSME Industry Code">
-    <link rel="canonical" href="https://udyamgov.com/nic-code.php" />
+    <link rel="canonical" href="<?php echo $baseUrl; ?>nic-code.php" />
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <script src="/assets/js/jquery.min.js"></script>
@@ -21,29 +22,29 @@
 <meta name="theme-color" content="#385067">
     <meta property="og:title" content="NIC Code List for your Udyam Registration - PDF">
     <meta property="og:description" content="Explore the complete NIC Code list for Udyam Registration and learn about NIC Code and its importance in MSME/Udyam Registration.">
-    <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
-    <meta property="og:url" content="https://udyamgov.com/nic-code.php">
+    <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
+    <meta property="og:url" content="<?php echo $baseUrl; ?>nic-code.php">
     <meta property="og:type" content="website">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "NIC Code List for your Udyam Registration - PDF",
-      "url": "https://udyamgov.com/nic-code.php",
+      "url": "<?php echo $baseUrl; ?>nic-code.php",
       "description": "Explore the complete NIC Code list for Udyam Registration and learn about NIC Code and its importance in MSME/Udyam Registration.",
       "publisher": {
         "@type": "Organization",
         "name": "UdyamGov",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://udyamgov.com/assets/img/msme-logo.png"
+          "url": "<?php echo $baseUrl; ?>assets/img/msme-logo.png"
         }
       },
       "author": {
         "@type": "Person",
         "name": "UdyamGov"
       },
-      "mainEntityOfPage": "https://udyamgov.com/nic-code.php"
+      "mainEntityOfPage": "<?php echo $baseUrl; ?>nic-code.php"
     }
     </script>
     <script type="application/ld+json">
@@ -54,7 +55,7 @@
          "@type": "ListItem",
          "position": 1,
          "name": "NIC Code",
-         "item": "https://udyamgov.com/nic-code.php"
+         "item": "<?php echo $baseUrl; ?>nic-code.php"
          }]
       }
       </script>
@@ -67,7 +68,7 @@
       "author": [{
           "@type": "Organization",
           "name": "UdyamGov",
-          "url": "https://udyamgov.com"
+          "url": "<?php echo rtrim($baseUrl, '/'); ?>"
         }]
     }
 </script>
@@ -84,7 +85,7 @@
         "/html/head/meta[@name='description']/@content"
         ]
       },
-     "url": "https://udyamgov.com/nic-code.php"
+     "url": "<?php echo $baseUrl; ?>nic-code.php"
      }
 </script>
 <style>
@@ -510,7 +511,7 @@
                 Here you will learn all the important things about NIC Code for Udyam Registration.
             </p>
             <p>
-                If you need any help regarding Udyam Registration then click on <a href="https://udyamgov.com/">Register Udyam</a>
+                If you need any help regarding Udyam Registration then click on <a href="<?php echo $baseUrl; ?>">Register Udyam</a>
                 and fill out the form.
             </p>
         </section>
@@ -572,7 +573,7 @@
             </p>
             <p>
                 If you are unable to identify the correct code or you need any information or help related to NIC
-                code, then visit the <a href="https://udyamgov.com/">Register Udyam</a> website. Our team will always be there to help you.
+                code, then visit the <a href="<?php echo $baseUrl; ?>">Register Udyam</a> website. Our team will always be there to help you.
             </p>
         </section>
     </main>

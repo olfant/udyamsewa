@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Udyog Aadhaar Renewal Guide- MSMEs Need to Know In 2026</title>
 <meta name="description" content="Learn how to renew your Udyog Aadhaar registration in 2026. Explore MSME renewal steps, benefits, documents, and common mistakes to avoid.">
-<link rel="canonical" href="https://udyamgov.com/blog/udyog-aadhaar-renewal-guide-for-msmes-in-2026" />
+<link rel="canonical" href="<?php echo $baseUrl; ?>blog/udyog-aadhaar-renewal-guide-for-msmes-in-2026" />
 <meta name="keywords" content="Udyam Registration, MSME benefits, financial benefits, legal advantages, Udyam certificate">
-<link rel="icon" href="https://udyamgov.com/assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
+<link rel="icon" href="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" type="image/gif" sizes="16x16">
 <link rel="stylesheet" href="/assets/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
@@ -25,10 +26,10 @@
 <!-- og tags -->
 <meta property="og:title" content="Udyog Aadhaar Renewal Guide for MSMEs in 2026">
 <meta property="og:site_name" content="Udyam-Gov">
-<meta property="og:url" content="https://udyamgov.com/blog/udyog-aadhaar-renewal-guide-for-msmes-in-2026">
+<meta property="og:url" content="<?php echo $baseUrl; ?>blog/udyog-aadhaar-renewal-guide-for-msmes-in-2026">
 <meta property="og:description" content="Complete Udyog Aadhaar renewal guide for MSMEs in 2026. Read this blog to know how to migrate Udyam registration, documents required and the benefits.">
 <meta property="og:type" content="business">
-<meta property="og:image" content="https://udyamgov.com/assets/image/Udyog-Aadhar-renewal-guide-process.webp">
+<meta property="og:image" content="<?php echo $baseUrl; ?>assets/image/Udyog-Aadhar-renewal-guide-process.webp">
 
 
 <!-- twitter cards -->
@@ -36,7 +37,7 @@
 <meta name="twitter:site" content="@UdyamGov">
 <meta name="twitter:title" content="Udyog Aadhaar Renewal Guide for MSMEs in 2026">
 <meta name="twitter:description" content="Complete Udyog Aadhaar renewal guide for MSMEs in 2026. Read this blog to know how to migrate Udyam registration, documents required and the benefits.">
-<meta name="twitter:image" content="https://udyamgov.com/assets/image/Udyog-Aadhar-renewal-guide-process.webp">
+<meta name="twitter:image" content="<?php echo $baseUrl; ?>assets/image/Udyog-Aadhar-renewal-guide-process.webp">
 
 
 </head>
@@ -53,19 +54,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://udyamgov.com/"
+      "item": "<?php echo $baseUrl; ?>"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://udyamgov.com/blog/"
+      "item": "<?php echo $baseUrl; ?>blog/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Udyog Aadhaar Renewal Guide for MSMEs in 2026",
-      "item": "https://udyamgov.com/blog/udyog-aadhaar-renewal-guide-for-msmes-in-2026"
+      "item": "<?php echo $baseUrl; ?>blog/udyog-aadhaar-renewal-guide-for-msmes-in-2026"
     }
   ]
 }
@@ -78,9 +79,9 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Udyog Aadhaar Renewal Guide for MSMEs in 2026",
-  "url": "https://udyamgov.com/blog/udyog-aadhaar-renewal-guide-for-msmes-in-2026",
+  "url": "<?php echo $baseUrl; ?>blog/udyog-aadhaar-renewal-guide-for-msmes-in-2026",
   "description": "Complete Udyog Aadhaar renewal guide for MSMEs in 2026. Read this blog to know how to migrate Udyam registration, documents required and the benefits.",
-  "image": "https://udyamgov.com/assets/image/Udyog-Aadhar-renewal-guide-process.webp"
+  "image": "<?php echo $baseUrl; ?>assets/image/Udyog-Aadhar-renewal-guide-process.webp"
 }
 </script>
 
@@ -92,7 +93,7 @@
   "@type": "BlogPosting",
   "headline": "Udyog Aadhaar Renewal Guide for MSMEs in 2026",
   "description": "Complete Udyog Aadhaar renewal guide for MSMEs in 2026. Read this blog to know how to migrate Udyam registration, documents required and the benefits.",
-  "image": "https://udyamgov.com/assets/image/Udyog-Aadhar-renewal-guide-process.webp",
+  "image": "<?php echo $baseUrl; ?>assets/image/Udyog-Aadhar-renewal-guide-process.webp",
   "author": {
     "@type": "Organization",
     "name": "Udyam Sewa"
@@ -102,7 +103,7 @@
     "name": "Udyam Sewa",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://udyamgov.com/assets/image/register-udyam-logo.png"
+      "url": "<?php echo $baseUrl; ?>assets/image/register-udyam-logo.png"
     }
   },
   "datePublished": "2026-05-12",
@@ -145,7 +146,7 @@
             It was launched in the year 2015 under the MSMED Act. It simplified the registration process and became a gateway to government 
             recognition, subsidies and financial incentives.
         </p>
-        <p>In 2020, it was replaced by <a href="https://udyamgov.com/"><strong>Udyam Registration</strong></a>. It is an online platform 
+        <p>In 2020, it was replaced by <a href="<?php echo $baseUrl; ?>"><strong>Udyam Registration</strong></a>. It is an online platform 
             which is a simpler, paperless and GST PAN-integrated process platform and based on self-declaration, but still many MSMEs are 
             operating their businesses with the old Udyog Aadhaar certificate.
         </p>
@@ -233,7 +234,7 @@
         <li class="step-item">
           <div class="step-num">1</div>
           <div class="step-body">
-            <h3>Search <a href="https://udyamgov.com/">Udyam Registration Portal</a></h3>
+            <h3>Search <a href="<?php echo $baseUrl; ?>">Udyam Registration Portal</a></h3>
             <p>First, you have to visit the authentic Udyam portal.</p>
             <img src="../assets/image/step1-udyog-renewal.webp" alt="Step 1 of Udyam Registration Renewal Process – Enter Udyam Registration Details" >
           </div>
@@ -251,7 +252,7 @@
         <li class="step-item">
           <div class="step-num">3</div>
           <div class="step-body">
-            <h3>Complete the <a href="https://udyamgov.com/udyam-re-registration-certificate-online.php">Udyam Re-registration</a> Form</h3>
+            <h3>Complete the <a href="<?php echo $baseUrl; ?>udyam-re-registration-certificate-online.php">Udyam Re-registration</a> Form</h3>
             <p>The Udyam Registration Form opens on your home screen. You have to provide the necessary details, such as:</p>
             <ul class="field-list">
                 <li><span class="field-label">→</span> Applicant's Name</li>
@@ -311,7 +312,7 @@
       <p>You will receive your Udyam certification in your email ID when all the verification processes have been completed. However, you can also download the certificate directly from the website. To download your new Udyam certificate, follow the steps:</p>
       <ul>
         <li>Go to the same Udyam registration website.</li>
-        <li>Click on the <a href="https://udyamgov.com/print-udyam-registration-certificate-online.php"><strong>"Download Udyam Certificate"</strong></a> option.</li>
+        <li>Click on the <a href="<?php echo $baseUrl; ?>print-udyam-registration-certificate-online.php"><strong>"Download Udyam Certificate"</strong></a> option.</li>
         <li>Enter the required information on the Udyam Certificate download form.</li>
         <li>Click on <strong>"Submit Application"</strong>.</li>
         <li>After submission and verification, you can download your Udyam Certificate.</li>
@@ -335,7 +336,7 @@
 
       <h3>Discounts on Trademark and Patent Registration</h3>
       <p>Trademark and patent registration can be very expensive for small businesses, which is why they hesitate to register. 
-        However, the good news is that businesses with a <a href="https://udyamgov.com/"><strong>Udyam Certificate</strong></a> 
+        However, the good news is that businesses with a <a href="<?php echo $baseUrl; ?>"><strong>Udyam Certificate</strong></a> 
         receive reimbursement of up to ₹1 lakh for domestic patent registration and ₹10,000 for trademark registration.
       </p>
 
@@ -375,7 +376,7 @@
 
       <h3>Choosing an Incorrect Business Type</h3>
       <p>If you choose the wrong type of business — for example, your business type is private limited but you select partnership 
-        firm — you can face a problem in the migration of <a href="https://udyamgov.com/">Udyog Aadhar</a>.</p>
+        firm — you can face a problem in the migration of <a href="<?php echo $baseUrl; ?>">Udyog Aadhar</a>.</p>
 
       <h3>Providing Outdated or Invalid Documents</h3>
       <p>Using an expired GST certificate or the wrong address proof results in rejection during the verification process.</p>
@@ -388,7 +389,7 @@
     <div class="blog-card conclusion-box">
       <h2>Conclusion</h2>
       <p>If you are still using Udyog Aadhaar, you are missing out on many government schemes that are exclusively available to 
-        <a href="https://udyamgov.com/" style="color: #e8b84b; font-weight: 600;">Udyam Registration Certificate</a> users. 
+        <a href="<?php echo $baseUrl; ?>" style="color: #e8b84b; font-weight: 600;">Udyam Registration Certificate</a> users. 
         So, don't delay; migrate your Udyog Aadhaar to a Udyam Certificate immediately. Migration is a very simple process, 
         and you can avail numerous benefits, such as easy access to loans, benefits under government schemes, and various 
         financial and legal assistance. So, why wait? Visit the UdyamGov private consultancy website and renew your old Udyog 

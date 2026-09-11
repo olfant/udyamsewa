@@ -10,8 +10,8 @@ include "./config.php";
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Application Status - Udyam Registration</title>
-    <meta name="description" content="Check the status of your Udyam Registration application online. Easily track your application progress and stay updated with real-time status updates on UdyamGov.com.">
-    <link rel="canonical" href="https://udyamgov.com/track-order-details.php" />
+    <meta name="description" content="Check the status of your Udyam Registration application online. Easily track your application progress and stay updated with real-time status updates on udyamsewa.com.">
+    <link rel="canonical" href="<?php echo $baseUrl; ?>track-order-details.php" />
     <meta name="keywords" content="Application Status, Udyam Registration Status, Check Udyam Application Status, Track Udyam Registration, MSME Application Status, Udyam Status Online, Registration Progress, Application Tracking, Udyam Certificate Status, MSME Registration Update">
       <link rel="icon" href="/assets/img/favicon-udyam-registration.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -23,23 +23,23 @@ include "./config.php";
       <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#385067">
          <meta property="og:title" content="Application Status - Udyam Registration">
-         <meta property="og:description" content="Check the status of your Udyam Registration application online. Easily track your application progress and stay updated with real-time status updates on UdyamGov.com.">
-         <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
-         <meta property="og:url" content="https://udyamgov.com/track-order-details.php">
+         <meta property="og:description" content="Check the status of your Udyam Registration application online. Easily track your application progress and stay updated with real-time status updates on udyamsewa.com.">
+         <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
+         <meta property="og:url" content="<?php echo $baseUrl; ?>track-order-details.php">
          <meta property="og:type" content="website">
          <script type="application/ld+json">
          {
          "@context": "https://schema.org",
          "@type": "WebPage",
          "name": "Application Status - Udyam Registration",
-         "description": "Check the status of your Udyam Registration application online. Easily track your application progress and stay updated with real-time status updates on UdyamGov.com.",
-         "url": "https://udyamgov.com/track-order-details.php", 
+         "description": "Check the status of your Udyam Registration application online. Easily track your application progress and stay updated with real-time status updates on udyamsewa.com.",
+         "url": "<?php echo $baseUrl; ?>track-order-details.php", 
          "potentialAction": {
             "@type": "Action",
-            "name": "MSME/Udyam/Udyog Aadhaar - udyamgov.com Private Consultancy",
+            "name": "MSME/Udyam/Udyog Aadhaar - udyamsewa.com Private Consultancy",
             "target": {
                "@type": "EntryPoint",
-               "urlTemplate": "https://udyamgov.com/track-order-details.php"
+               "urlTemplate": "<?php echo $baseUrl; ?>track-order-details.php"
             }
          },
          
@@ -51,12 +51,12 @@ include "./config.php";
 ],
 "mainEntity": {
             "@type": "Service",
-            "name": "MSME/Udyam Service - udyamgov.com Private Consultancy",
+            "name": "MSME/Udyam Service - udyamsewa.com Private Consultancy",
             "serviceType": "Business Private Consultancy",
             "provider": {
                "@type": "Organization",
                "name": "UdyamGov",
-               "url": "https://udyamgov.com/track-order-details.php"
+               "url": "<?php echo $baseUrl; ?>track-order-details.php"
             },
             "areaServed": {
                "@type": "Country",
@@ -70,7 +70,7 @@ include "./config.php";
                "name": "India"
                }
             },
-            "additionalType": "https://udyamgov.com/track-order-details.php"
+            "additionalType": "<?php echo $baseUrl; ?>track-order-details.php"
          }
          }
       </script>
@@ -83,7 +83,7 @@ include "./config.php";
         <div class="row">
             <div class="col-sm-8 col-lg-6" style="margin: auto">
                 <?php
-                    $web = "UDYAMGOV.COM";
+                    $web = "UDYAMSEWA.COM";
                     $crmConn = new Connection();
                     // to crm db
                     $connect = $crmConn->connection;

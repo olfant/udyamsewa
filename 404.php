@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config.php'; ?>
 <?php 
     header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found");
 ?>
@@ -65,11 +66,11 @@
       <meta name="author" content="UdyamGov">
       <meta name="robots" content="noindex, nofollow">
       <meta name="theme-color" content="#385067">
-      <meta http-equiv="refresh" content="10;url=https://udyamgov.com/">
+      <meta http-equiv="refresh" content="10;url=<?php echo $baseUrl; ?>">
       <meta property="og:title" content="404 Page Not Found" />
       <meta property="og:description" content="This page could not be found. Please check the URL or return to the homepage." />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-udyam-registration.png" />
+      <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-udyam-registration.png" />
             <script type="application/ld+json">
          {
          "@context": "https://schema.org",

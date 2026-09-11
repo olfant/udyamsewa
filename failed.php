@@ -20,22 +20,22 @@ include_once('./config.php');
       <meta name="theme-color" content="#385067">
       <meta property="og:title" content="Payment Failed - Register Udyam" />
       <meta property="og:description" content="Your payment was unsuccessful. Please try again or contact support for assistance with your transaction." />
-      <meta property="og:url" content="https://udyamgov.com/failed.php" />
+      <meta property="og:url" content="<?php echo $baseUrl; ?>failed.php" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://udyamgov.com/assets/img/favicon-msme-registration.png" />
+      <meta property="og:image" content="<?php echo $baseUrl; ?>assets/img/favicon-msme-registration.png" />
       <script type="application/ld+json">
       {
          "@context": "https://schema.org",
          "@type": "WebPage",
          "name": "Payment Failed - Register Udyam",
          "description": "Your payment was unsuccessful. Please try again or contact support for assistance with your transaction.",
-         url": "https://udyamgov.com/failed.php", 
+         url": "<?php echo $baseUrl; ?>failed.php", 
          "potentialAction": {
             "@type": "Action",
             "name": "MSME/Udyam/Udyog Aadhaar - Payment failed",
             "target": {
                "@type": "EntryPoint",
-               "urlTemplate": "https://udyamgov.com/failed.php"
+               "urlTemplate": "<?php echo $baseUrl; ?>failed.php"
             }
          },
          
@@ -52,7 +52,7 @@ include_once('./config.php');
             "provider": {
                "@type": "Organization",
                "name": "UdyamGov",
-               "url": "https://udyamgov.com/failed.php"
+               "url": "<?php echo $baseUrl; ?>failed.php"
             },
             "areaServed": {
                "@type": "Country",
@@ -66,7 +66,7 @@ include_once('./config.php');
                "name": "India"
                }
             },
-            "additionalType": "https://udyamgov.com/failed.php"
+            "additionalType": "<?php echo $baseUrl; ?>failed.php"
          }
          }
       </script>

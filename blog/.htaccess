@@ -3,7 +3,7 @@ DirectoryIndex index.php
 RewriteEngine On
 
 # Specific page redirects
-RewriteRule ^download-print-udyam-certificate-online\.php$ https://udyamgov.com/blog/download-udyam-certificate-online [R=301,L]
+RewriteRule ^download-print-udyam-certificate-online\.php$ https://udyamsewa.com/blog/download-udyam-certificate-online [R=301,L]
 
 # Remove .php — redirect old URLs to clean ones
 RewriteCond %{THE_REQUEST} \s/blog/.+\.php[\s?]
